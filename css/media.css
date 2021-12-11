@@ -1,3 +1,85 @@
+@media (max-width: 1525px) {
+    .hero {
+        align-items: center;
+        justify-content: center;
+      }
+      .anchor-container {
+        width: 60%;
+        text-align: center;
+      }
+      .img-holder {
+        width: 100%;
+      }
+      .links-container {
+        right: 0;
+        bottom: 20%;
+      }
+}
+@media (max-width: 1525px) {
+    .hero {
+        align-items: center;
+        justify-content: center;
+      }
+      .anchor-container {
+        width: 60%;
+        text-align: center;
+      }
+      .img-holder {
+        width: 100%;
+      }
+      .links-container {
+        right: 0;
+        bottom: 8%;
+      }
+}
+@media (max-width: 1200px) {
+    html{
+        font-size: 7;
+    }
+  .hero {
+    align-items: center;
+    justify-content: center;
+  }
+  .content{
+      width: 55%;
+  }
+  .anchor-container {
+    width: 60%;
+    text-align: center;
+  }
+  .img-holder {
+    width: 100%;
+  }
+  .links-container {
+    right: 0;
+    bottom: 5%;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 7.5px;
+  }
+  .logo {
+    width: 25%;
+  }
+
+  .content .title {
+    font-size: 7rem;
+  }
+  .subtitle {
+    font-size: 6rem;
+  }
+  .anchor-container {
+    width: 60%;
+    text-align: center;
+  }
+  .img-holder {
+    width: 100%;
+  }
+  .links-container {
+    right: 0;
+  }
+}
 @media (max-width: 768px) {
   html {
     font-size: 7px;
@@ -8,9 +90,6 @@
     margin: 0 auto;
   }
   .anchor-container {
-    width: 100%;
-    margin: 0 auto;
-    height: 50vh;
     display: none;
   }
   .hero {
@@ -28,7 +107,7 @@
     -o-transform: rotate(0);
     text-align: center;
     line-height: 1.1;
-    margin:0 auto;
+    margin: 0 auto;
     width: 90%;
   }
   .content .title,
@@ -41,12 +120,12 @@
     margin: 3rem auto 0;
   }
   .links-container {
-     right: 50%;
-     bottom: -50%;
-}
+    right: 50%;
+    bottom: -50%;
+  }
 }
 @media (max-width: 400px) {
-html{
+  html {
     font-size: 5px;
-}
+  }
 }
