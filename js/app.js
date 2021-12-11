@@ -10,17 +10,17 @@ new hoverEffect({
 // GSAP
 
 //  Preloader
-TweenMax.to(".first", 1.5, {
+TweenMax.to(".first", 1, {
   delay: 0.2,
   top: "-100%",
   ease: Expo.easeInOut,
 });
-TweenMax.to(".second", 1.5, {
+TweenMax.to(".second", 1, {
   delay: 0.5,
   top: "-100%",
   ease: Expo.easeInOut,
 });
-TweenMax.to(".third", 1.5, {
+TweenMax.to(".third", 1, {
   delay: 0.7,
   top: "-100%",
   ease: Expo.easeInOut,
