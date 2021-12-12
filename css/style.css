@@ -71,6 +71,7 @@ header {
 .content {
   display: flex;
   justify-content: flex-end;
+
   flex-direction: column;
   width: 40%;
   line-height: 0.7;
@@ -79,7 +80,6 @@ header {
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
-  margin-top: 8rem;
 }
 .content .title {
   font-size: 10rem;
@@ -109,11 +109,10 @@ header {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 3rem;
 }
 .img-holder {
-  width: 60%;
-  height: 55rem;
+  width: 55%;
+  height: 50rem;
   cursor: pointer;
 }
 .links-container {
