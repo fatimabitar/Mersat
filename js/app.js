@@ -1,9 +1,9 @@
 //Hover EFFECT
 new hoverEffect({
   parent: document.querySelector(".img-holder"),
-  intensity: 0.3,
-  image1: "../img/anchor2.png",
-  image2: "../img/anchor1.png",
+  intensity: 0.1,
+  image1: "Mersat/img/anchor2.png",
+  image2: "Mersat/img/anchor1.png",
   displacementImage: "../img/8.jpg",
   imagesRatio: 300 / 280,
 });
