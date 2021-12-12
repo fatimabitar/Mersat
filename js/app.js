@@ -2,8 +2,8 @@
 new hoverEffect({
   parent: document.querySelector(".img-holder"),
   intensity: 0.1,
-  image1: "Mersat/img/anchor2.png",
-  image2: "Mersat/img/anchor1.png",
+  image1: "../img/anchor2.png",
+  image2: "../img/anchor1.png",
   displacementImage: "../img/8.jpg",
   imagesRatio: 300 / 280,
 });
@@ -69,13 +69,13 @@ gsap.from(".down-btn", 1.2, {
 //Intro Animation
 gsap.from(".col-1 , .col-3", 2, {
   scrollTrigger: ".intro-content",
-  y: 500,
+  y: 600,
   ease: Power1.easeInOut,
 });
 
 gsap.from(".col-2 , .col-4", 2, {
   scrollTrigger: ".intro-content",
-  y: -500,
+  y: -600,
   ease: Power1.easeInOut,
 });
 gsap.from(".intro-content", 1.2, {
