@@ -2,7 +2,7 @@
 new hoverEffect({
   parent: document.querySelector(".img-holder"),
   intensity: 0.1,
-  image2:
+  image1:
   "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293699/anchor-1_hf3hjx.png",
   image2:
     "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293726/anchor_unaitc.png",
