@@ -3,8 +3,8 @@ new hoverEffect({
   parent: document.querySelector(".img-holder"),
   intensity: 0.1,
   image1: "../img/anchor2.png",
-  image2: "../img/anchor1.png",
-  displacementImage: "../img/8.jpg",
+  image2: "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293699/anchor-1_hf3hjx.png",
+  displacementImage: "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293726/anchor_unaitc.png",
   imagesRatio: 300 / 280,
 });
 // GSAP
