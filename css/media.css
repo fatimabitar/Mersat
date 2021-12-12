@@ -124,6 +124,10 @@
     bottom: -50%;
   }
 }
+@media (max-width:600px){
+  /* Intro Section */
+  
+}
 @media (max-width: 400px) {
   html {
     font-size: 5px;
