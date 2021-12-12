@@ -53,7 +53,7 @@ header {
 
 .logo-container {
   width: 100%;
-  padding: 3rem 0;
+  padding: 10px 0;
 }
 .logo {
   width: 30%;
@@ -81,7 +81,7 @@ header {
   -o-transform: rotate(-90deg);
 }
 .content .title {
-  font-size: 10rem;
+  font-size: 9rem;
   margin: 0;
   z-index: 3;
 }
