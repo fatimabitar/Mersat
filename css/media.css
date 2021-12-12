@@ -8,7 +8,7 @@
   .img-holder {
     width: 70%;
   }
-  .title{
+  .title {
     font-size: 8rem;
   }
   .links-container {
@@ -16,11 +16,8 @@
     bottom: 10%;
   }
   .col {
-    width: 265px;
+    width: 280px;
     margin-top: 5rem;
-  }
-  .col-4 {
-    right: 3%;
   }
   .intro-title {
     font-size: 6rem;
@@ -41,10 +38,13 @@
   html {
     font-size: 6.5px;
   }
-  .hero {
-    margin-top: 5rem;
+  .links-container{
+    margin-bottom: 5rem;
   }
-  .title{
+  .hero {
+    margin-top: 10rem;
+  }
+  .title {
     font-size: 7rem;
   }
   .content .text {
@@ -67,9 +67,19 @@
   }
   .col {
     width: 200px;
+    margin-top: 5rem;
     animation: none;
     -webkit-animation: none;
-    margin-top: 5rem;
+  }
+  .col-1,
+  .col-3 {
+    animation: upDownS 2s linear infinite alternate;
+    -webkit-animation: upDownS 2s linear infinite alternate;
+  }
+  .col-2,
+  .col-4 {
+    animation: upDownS 2s linear infinite reverse;
+    -webkit-animation: upDownS 2s linear infinite reverse;
   }
   .col-3 {
     left: 53%;
@@ -87,6 +97,14 @@
   }
   .intro-content .btn {
     font-size: 2.5rem;
+  }
+  /* About */
+  .goal-title {
+    font-size: 3rem;
+  }
+  .our-goals .title-prev,
+  .title-next {
+    width: 350px;
   }
 }
 @media (max-width: 992px) {
@@ -140,7 +158,6 @@
     right: 0;
   }
   .down-btn {
-    /* bottom: -4%; */
     display: none;
   }
   /*  Intro Section */
@@ -149,14 +166,51 @@
   }
   .col {
     width: 175px;
-    animation: none;
-    -webkit-animation: none;
+  }
+  .col-1,
+  .col-3 {
+    animation: upDownS 2s linear infinite alternate;
+    -webkit-animation: upDownS 2s linear infinite alternate;
+  }
+  .col-2,
+  .col-4 {
+    animation: upDownS 2s linear infinite reverse;
+    -webkit-animation: upDownS 2s linear infinite reverse;
   }
   .column-box {
     margin: 5rem auto;
   }
   .col-4 {
-    right: 0%;
+    right: -2%;
+  }
+  /* About us */
+  .title-container {
+    margin: 5rem auto;
+    text-align: center;
+  }
+  .about-title {
+    font-size: 4.5rem;
+  }
+  .title-container .text {
+    width: 100%;
+    font-size: 2.2rem;
+  }
+  .our-content .text,
+  .we-content .text {
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .our-goals .title-prev,
+  .title-next {
+    width: 200px;
+  }
+  .goal-inner .text {
+    font-size: 2rem;
+  }
+  .we-img img,
+  .our-img img {
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -217,10 +271,6 @@
   .intro-content .btn {
     font-size: 3rem;
   }
-  .col-1,
-  .col-3 {
-    width: 275px;
-  }
   .col-1 {
     animation: upDownS 2s linear infinite alternate;
     -webkit-animation: upDownS 2s linear infinite alternate;
@@ -229,6 +279,11 @@
     animation: upDownS 2s linear infinite reverse;
     -webkit-animation: upDownS 2s linear infinite reverse;
   }
+  .col-1,
+  .col-3 {
+    width: 275px;
+  }
+
   .col-2,
   .col-4 {
     display: none;
@@ -238,6 +293,43 @@
   }
   .down-btn {
     bottom: -7%;
+  }
+  /* About us */
+  .title-container {
+    margin: 5rem auto;
+    text-align: center;
+  }
+  .about-title {
+    font-size: 4.5rem;
+  }
+  .title-container .text {
+    width: 100%;
+    font-size: 2.2rem;
+  }
+  .we-inner,
+  .our-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-content .text,
+  .we-content .text {
+    width: 100%;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .our-goals .title-prev,
+  .title-next {
+    width: 200px;
+  }
+  .goal-inner .text {
+    font-size: 2rem;
+  }
+  .we-img img,
+  .our-img img {
+    width: 100%;
+  }
+  .goal-title {
+    font-size: 3.5rem;
   }
 }
 @media (max-width: 600px) {
@@ -276,6 +368,21 @@
   .col-3 {
     right: -6%;
   }
+  /* About us */
+  .about-title {
+    font-size: 4rem;
+  }
+  .title-container .text {
+    font-size: 2rem;
+  }
+  .our-content .text,
+  .we-content .text {
+    font-size: 2rem;
+  }
+
+  .goal-inner .text {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 400px) {
@@ -308,5 +415,21 @@
   }
   .col-3 {
     right: 15%;
+  }
+  /* About us */
+  .our-goals .title-prev,
+  .title-next {
+    width: 200px;
+  }
+  .goal-inner .text {
+    font-size: 2rem;
+  }
+  .we-img,
+  .our-img {
+    width: 100%;
+  }
+  .title-prev {
+    width: 75px;
+    height: 35px;
   }
 }

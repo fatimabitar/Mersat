@@ -316,9 +316,9 @@ header {
   -o-transform: rotate(-75deg);
 }
 .line-2 {
-  right: 20%;
-  top: -50px;
-  height: 400px;
+  right: 10%;
+  top: -100px;
+  height: 800px;
   transform: rotate(-35deg);
   -webkit-transform: rotate(-35deg);
   -moz-transform: rotate(-35deg);
@@ -372,6 +372,7 @@ header {
 }
 .we-inner,
 .our-inner {
+  width: 95%;
   display: flex;
   justify-content: space-between;
 }
@@ -381,7 +382,7 @@ header {
 }
 .our-content .text,
 .we-content .text {
-  width: 50%;
+  width: 60%;
   font-weight: 500;
   line-height: 1.3;
   margin: 3rem auto;
@@ -389,13 +390,13 @@ header {
 }
 .our-img img,
 .we-img img {
-  margin-right: -15px;
+  margin-right: 15px;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  box-shadow: 30px 15px 10px rgba(0, 0, 0, 0.2), -10px 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.1), -5px 0 10px rgba(0, 0, 0, 0.1);
 }
 .our-vision .a-title::before {
   position: absolute;
@@ -453,4 +454,5 @@ header {
   color: var(--main);
   font-size: 3rem;
   font-weight: 700;
+  padding-right: 1rem;
 }

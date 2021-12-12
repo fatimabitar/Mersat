@@ -44,7 +44,7 @@ gsap.from(".hero .text", 1, {
   delay: 1.2,
 });
 gsap.from(".subtitle", 1, {
-  x: "-550",
+  x: "-750",
   opcity: 0,
   ease: Expo.easeInOut,
   delay: 1.5,
@@ -165,10 +165,11 @@ gsap.from(".goal-title", 0.8, {
   ease: Power1.easeInOut,
   delay: 0.3,
 });
-gsap.from(".goal-inner .text", 0.8, {
+gsap.from(".goal-inner .text", 1, {
   scrollTrigger: ".goal-inner .text",
   stagger:0.2,
-  x: -1200,
+  opacity:0,
+  y: -1000,
   ease: Power1.easeInOut,
   delay: 0.3,
 });
