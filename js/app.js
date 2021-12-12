@@ -70,17 +70,17 @@ gsap.from(".down-btn", 1.2, {
 });
 
 //Intro Animation
-// gsap.from(".col-1 , .col-3", 2, {
-//   scrollTrigger: ".intro-content",
-//   y: 2000,
-//   ease: Power1.easeInOut,
-// });
+gsap.from(".col-1,.col-3", 3, {
+  scrollTrigger: ".intro-title",
+  y: 1000,
+  ease: Power1.easeInOut,
+});
 
-// gsap.from(".col-2 , .col-4", 2, {
-//   scrollTrigger: ".intro-content",
-//   y: -2000,
-//   ease: Power1.easeInOut,
-// });
+gsap.from(".col-2,.col-4", 3, {
+  scrollTrigger: ".intro-title",
+  y: -1000,
+  ease: Power1.easeInOut,
+});
 gsap.from(".intro-content", 1.2, {
   scrollTrigger: ".intro-content",
   x: -500,

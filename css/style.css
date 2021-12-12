@@ -121,8 +121,8 @@ header {
   height: 80vh;
   cursor: pointer;
   margin-bottom: 3rem;
-  animation: leftRight 2s ease infinite;
-  -webkit-animation: leftRight 2s ease infinite;
+  animation: leftRight 2s ease ;
+  -webkit-animation: leftRight 2s ease ;
 }
 .links-container {
   position: absolute;
@@ -305,23 +305,30 @@ header {
   border: 3px solid var(--yellow);
 }
 .col-1{
-  animation: upDown 5s ease infinite;
-  -webkit-animation: upDown 5s ease infinite;
+  animation: upDown 5s linear infinite alternate ;
+  -webkit-animation: upDown 5s linear infinite alternate ;
+  animation-delay: 4s;
 }
 .col-2{
   left: 26%;
   top: -2%;
-  animation: upDown 5s ease infinite reverse;
-  -webkit-animation: upDown 5s ease infinite reverse;
+  animation: upDown 5s linear infinite alternate-reverse;
+  -webkit-animation: upDown 5s linear infinite alternate-reverse;
+  animation-delay: 4s;
+
 }
 .col-3{
   left: 52%;
-  animation: upDown 5s ease infinite;
-  -webkit-animation: upDown 5s ease infinite;
+  animation: upDown 5s linear infinite alternate;
+  -webkit-animation: upDown 5s linear infinite alternate;
+  animation-delay: 4s;
+
 }
 .col-4{
   right: -2%;
   top: 2%;
-  animation: upDown 5s ease infinite reverse;
-  -webkit-animation: upDown 5s ease infinite reverse;
+  animation: upDown 5s linear infinite alternate-reverse;
+  -webkit-animation: upDown 5s linear infinite alternate-reverse;
+  animation-delay: 4s;
+
 }
