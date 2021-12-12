@@ -87,8 +87,6 @@ gsap.from(".intro-content", 1, {
   delay: 0.2,
 });
 
-
-
 const down = document.querySelector(".down-btn");
 down.addEventListener("click", () => {
   document.querySelector(".intro").scrollIntoView({ behavior: "smooth" });
