@@ -295,33 +295,16 @@ header {
 .intro-img:first-child{
   border: 3px solid var(--main);
 }
-/* .intro-img:nth-child(2){
-  border: 3px solid var(--yellow);
-}
-.intro-img:nth-child(3){
-  border: 3px solid var(--main);
-} */
 .intro-img:last-child{
   border: 3px solid var(--yellow);
 }
-.col-1{
-  /* animation: upDown 5s ease infinite;
-  -webkit-animation: upDown 5s ease infinite; */
-}
 .col-2{
   left: 26%;
-  top: -2%;
-  /* animation: upDown 5s ease infinite reverse;
-  -webkit-animation: upDown 5s ease infinite reverse; */
-}
+  top: -2%;}
 .col-3{
   left: 52%;
-  /* animation: upDown 5s ease infinite;
-  -webkit-animation: upDown 5s ease infinite; */
 }
 .col-4{
   right: -2%;
-  top: 6%;
-  /* animation: upDown 5s ease infinite reverse;
-  -webkit-animation: upDown 5s ease infinite reverse; */
+  top: 1%;
 }

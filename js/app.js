@@ -2,9 +2,9 @@
 new hoverEffect({
   parent: document.querySelector(".img-holder"),
   intensity: 0.1,
-  image1: "../img/anchor2.png",
+  image1: "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293726/anchor_unaitc.png",
   image2: "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293699/anchor-1_hf3hjx.png",
-  displacementImage: "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293726/anchor_unaitc.png",
+  displacementImage: "https://res.cloudinary.com/du9veyxbv/image/upload/v1639294332/8_lug9kb.jpg",
   imagesRatio: 300 / 280,
 });
 // GSAP
@@ -69,13 +69,13 @@ gsap.from(".down-btn", 1.2, {
 //Intro Animation
 gsap.from(".col-1 , .col-3", 2, {
   scrollTrigger: ".intro-content",
-  y: 600,
+  y: 800,
   ease: Power1.easeInOut,
 });
 
 gsap.from(".col-2 , .col-4", 2, {
   scrollTrigger: ".intro-content",
-  y: -600,
+  y: -800,
   ease: Power1.easeInOut,
 });
 gsap.from(".intro-content", 1.2, {
