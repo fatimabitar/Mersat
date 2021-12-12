@@ -69,17 +69,6 @@ gsap.from(".down-btn", 1.2, {
 });
 
 //Intro Animation
-// gsap.from(".col-1,.col-3", 3, {
-//   scrollTrigger: ".intro-title",
-//   y: 1000,
-//   ease: Power1.easeInOut,
-// });
-
-// gsap.from(".col-2,.col-4", 3, {
-//   scrollTrigger: ".intro-title",
-//   y: -1000,
-//   ease: Power1.easeInOut,
-// });
 gsap.from(".intro-content", 1, {
   scrollTrigger: ".intro-content",
   x: -500,
@@ -87,6 +76,103 @@ gsap.from(".intro-content", 1, {
   delay: 0.2,
 });
 
+//About Us animation
+gsap.from(".line-1 , .line-2", 0.8, {
+  scrollTrigger: ".title-container",
+  scale:0,
+  opacity:0,
+  ease: Power1.easeInOut,
+  delay: 0.1,
+});
+gsap.from(".about-title", 0.8, {
+  scrollTrigger: ".title-container",
+  x: -500,
+  ease: Power1.easeInOut,
+  delay: 0.3,
+});
+gsap.from(".title-container .text", 0.8, {
+  scrollTrigger: ".title-container",
+  x: -500,
+  ease: Power1.easeInOut,
+  delay: 0.5,
+});
+gsap.from(".we-are .title-prev", 0.8, {
+  scrollTrigger: ".title-container",
+  x: -500,
+  ease: Power1.easeInOut,
+  delay: 0.6,
+});
+gsap.from(".we-are .a-title", 0.8, {
+  scrollTrigger: ".title-container",
+  x: -500,
+  ease: Power1.easeInOut,
+  delay: 0.7,
+});
+gsap.from(".we-inner .text", 0.8, {
+  scrollTrigger: ".title-container",
+  x: -600,
+  ease: Power1.easeInOut,
+  delay: 0.8,
+});
+gsap.from(".we-are .we-img", 0.8, {
+  scrollTrigger: ".title-container",
+  x: 500,
+  ease: Power1.easeInOut,
+  delay: 0.9,
+});
+
+/* Our vision */
+gsap.from(".our-vision .title-prev", 0.8, {
+  scrollTrigger: ".our-inner",
+  x: -500,
+  ease: Power1.easeInOut,
+  delay: 0.3,
+});
+gsap.from(".our-vision .a-title", 0.8, {
+  scrollTrigger: ".our-inner",
+  x: -500,
+  ease: Power1.easeInOut,
+  delay: 0.4,
+});
+gsap.from(".our-vision .text", 0.8, {
+  scrollTrigger: ".our-inner",
+  x: -600,
+  ease: Power1.easeInOut,
+  delay: 0.5,
+});
+gsap.from(".our-vision .our-img", 0.8, {
+  scrollTrigger: ".our-inner",
+  x: 500,
+  ease: Power1.easeInOut,
+  delay: 0.6,
+});
+/* Our Goals animation */
+gsap.from(".our-goals .title-prev", 0.8, {
+  scrollTrigger: ".goal-inner",
+  x: -500,
+  ease: Power1.easeInOut,
+  delay: 0.3,
+});
+gsap.from(".our-goals .title-next", 0.8, {
+  scrollTrigger: ".goal-inner",
+  x: 500,
+  ease: Power1.easeInOut,
+  delay: 0.3,
+});
+gsap.from(".goal-title", 0.8, {
+  scrollTrigger: ".goal-inner",
+  y: 500,
+  ease: Power1.easeInOut,
+  delay: 0.3,
+});
+gsap.from(".goal-inner .text", 0.8, {
+  scrollTrigger: ".goal-inner .text",
+  stagger:0.2,
+  x: -1200,
+  ease: Power1.easeInOut,
+  delay: 0.3,
+});
+/* Navigation Buttons */
 const down = document.querySelector(".down-btn");
 down.addEventListener("click", () => {
   document.querySelector(".intro").scrollIntoView({ behavior: "smooth" });

@@ -89,6 +89,7 @@ header {
   font-size: 8rem;
   color: #999;
   z-index: 1;
+  align-self: center;
 }
 .content .caption {
   font-size: 3.2rem;
@@ -272,25 +273,184 @@ header {
 .col-1 {
   animation: upDown 30s linear infinite alternate;
   -webkit-animation: upDown 30s linear infinite alternate;
-  /* animation-delay: 4s; */
 }
 .col-2 {
   left: 26%;
   top: -2%;
   animation: upDown 30s linear infinite alternate-reverse;
   -webkit-animation: upDown 30s linear infinite alternate-reverse;
-  /* animation-delay: 4s; */
 }
 .col-3 {
   left: 52%;
   animation: upDown 30s linear infinite alternate;
   -webkit-animation: upDown 30s linear infinite alternate;
-  /* animation-delay: 4s; */
 }
 .col-4 {
   right: -2%;
   top: 2%;
   animation: upDown 30s linear infinite alternate-reverse;
   -webkit-animation: upDown 30s linear infinite alternate-reverse;
-  /* animation-delay: 4s; */
+}
+
+/* About us section */
+.about-sec {
+  font-size: 1.6rem;
+  color: #333;
+  position: relative;
+  overflow-x: hidden;
+}
+.line {
+  width: 5px;
+  background-color: #e0b337;
+  position: absolute;
+  z-index: -1;
+}
+.line-1 {
+  height: 630px;
+  right: 20%;
+  top: -250px;
+  transform: rotate(-75deg);
+  -webkit-transform: rotate(-75deg);
+  -moz-transform: rotate(-75deg);
+  -ms-transform: rotate(-75deg);
+  -o-transform: rotate(-75deg);
+}
+.line-2 {
+  right: 20%;
+  top: -50px;
+  height: 400px;
+  transform: rotate(-35deg);
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+}
+.title-container {
+  margin: 5rem 0;
+  padding: 0 6rem;
+  overflow-x: hidden;
+}
+.about-title {
+  font-size: 3rem;
+}
+.title-container .text {
+  width: 30%;
+  font-weight: 400;
+  color: #555;
+  margin: 2rem 0;
+}
+
+/* WE ARE  */
+.title-box {
+  display: flex;
+  align-items: center;
+}
+.title-prev {
+  width: 175px;
+  height: 50px;
+}
+.a-title {
+  font-size: 4rem;
+  padding-left: 2rem;
+  position: relative;
+}
+.a-title::before {
+  position: absolute;
+  content: "01";
+  font-size: 6rem;
+  opacity: 0.8;
+  color: var(--gray-light);
+  line-height: 0;
+  z-index: -1;
+  left: 30%;
+  top: 15%;
+}
+
+.we-are,
+.our-vision {
+  margin-bottom: 10rem;
+}
+.we-inner,
+.our-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.our-content,
+.we-content {
+  width: 50%;
+}
+.our-content .text,
+.we-content .text {
+  width: 50%;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 3rem auto;
+  color: #666;
+}
+.our-img img,
+.we-img img {
+  margin-right: -15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow: 30px 15px 10px rgba(0, 0, 0, 0.2), -10px 0 10px rgba(0, 0, 0, 0.2);
+}
+.our-vision .a-title::before {
+  position: absolute;
+  content: "02";
+  font-size: 6rem;
+  opacity: 0.8;
+  color: var(--gray-light);
+  line-height: 0;
+  z-index: -1;
+  left: 15%;
+  top: 20%;
+}
+
+/* Our  Goals */
+.our-goals {
+  position: relative;
+}
+.our-goals .title-box {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.our-goals .title-prev {
+  width: 500px;
+}
+.title-next {
+  width: 500px;
+  height: 50px;
+}
+.goal-title {
+  font-size: 4rem;
+  padding-left: 2rem;
+  position: relative;
+}
+.goal-title::before {
+  position: absolute;
+  content: "03";
+  font-size: 6rem;
+  opacity: 0.8;
+  color: var(--gray-light);
+  line-height: 0;
+  z-index: -1;
+  left: 30%;
+  top: 15%;
+}
+.goal-inner .text {
+  width: 60%;
+  font-size: 1.7rem;
+  text-align: left;
+  margin: 5rem auto;
+  color: #666;
+  font-weight: 500;
+}
+.dash{
+  color: var(--main);
+  font-size: 3rem;
+  font-weight: 700;
 }

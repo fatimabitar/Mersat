@@ -8,6 +8,9 @@
   .img-holder {
     width: 70%;
   }
+  .title{
+    font-size: 8rem;
+  }
   .links-container {
     right: 10%;
     bottom: 10%;
@@ -40,6 +43,9 @@
   }
   .hero {
     margin-top: 5rem;
+  }
+  .title{
+    font-size: 7rem;
   }
   .content .text {
     font-size: 2rem;
