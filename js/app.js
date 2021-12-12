@@ -8,7 +8,7 @@ new hoverEffect({
     "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293699/anchor-1_hf3hjx.png",
   displacementImage:
     "https://res.cloudinary.com/du9veyxbv/image/upload/v1639294332/8_lug9kb.jpg",
-  imagesRatio: 300 / 280,
+  imagesRatio: 250 / 250,
 });
 // GSAP
 
@@ -30,12 +30,12 @@ TweenMax.to(".third", 1, {
 });
 
 gsap.from(".title", 1, {
-  y: "-500",
+  y: "-550",
   ease: Expo.easeInOut,
   delay: 1,
 });
 gsap.from(".caption", 1, {
-  y: "-500",
+  y: "-600",
   ease: Expo.easeInOut,
   delay: 1.1,
 });
@@ -45,7 +45,7 @@ gsap.from(".hero .text", 1, {
   delay: 1.2,
 });
 gsap.from(".subtitle", 1, {
-  x: "-500",
+  x: "-550",
   opcity: 0,
   ease: Expo.easeInOut,
   delay: 1.5,
@@ -57,7 +57,7 @@ gsap.from(".links", 1, {
   delay: 1.5,
 });
 gsap.from(".anchor-container", 1.2, {
-  y: "-1000",
+  y: "-1150",
   opcity: 0,
   ease: Expo.easeInOut,
   delay: 1.7,
@@ -70,29 +70,25 @@ gsap.from(".down-btn", 1.2, {
 });
 
 //Intro Animation
-gsap.from(".col-1,.col-3", 3, {
-  scrollTrigger: ".intro-title",
-  y: 1000,
-  ease: Power1.easeInOut,
-});
+// gsap.from(".col-1,.col-3", 3, {
+//   scrollTrigger: ".intro-title",
+//   y: 1000,
+//   ease: Power1.easeInOut,
+// });
 
-gsap.from(".col-2,.col-4", 3, {
-  scrollTrigger: ".intro-title",
-  y: -1000,
-  ease: Power1.easeInOut,
-});
-gsap.from(".intro-content", 1.2, {
+// gsap.from(".col-2,.col-4", 3, {
+//   scrollTrigger: ".intro-title",
+//   y: -1000,
+//   ease: Power1.easeInOut,
+// });
+gsap.from(".intro-content", 1, {
   scrollTrigger: ".intro-content",
   x: -500,
   ease: Power1.easeInOut,
-  delay: 1.1,
+  delay: 0.2,
 });
-gsap.from(".intro-marks", 1.2, {
-  scrollTrigger: ".intro-content",
-  x: 500,
-  ease: Power1.easeInOut,
-  delay: 0.9,
-});
+
+
 
 const down = document.querySelector(".down-btn");
 down.addEventListener("click", () => {
