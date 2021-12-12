@@ -38,7 +38,7 @@
   html {
     font-size: 6.5px;
   }
-  .links-container{
+  .links-container {
     margin-bottom: 5rem;
   }
   .hero {
@@ -105,6 +105,9 @@
   .our-goals .title-prev,
   .title-next {
     width: 350px;
+  }
+  .footer-inner{
+    height: 75vh;
   }
 }
 @media (max-width: 992px) {
@@ -212,6 +215,21 @@
   .our-img img {
     width: 100%;
   }
+  /* Footer */
+  .footer-inner {
+    flex-direction: column-reverse;
+  }
+  .contact-info,
+  .footer-imgs {
+    width: 100%;
+    height: 50vh;
+  }
+  .value {
+    width: 100%;
+  }
+  .contact-info .container {
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   html {
@@ -295,6 +313,9 @@
     bottom: -7%;
   }
   /* About us */
+  .line {
+    width: 2px;
+  }
   .title-container {
     margin: 5rem auto;
     text-align: center;
