@@ -2,9 +2,12 @@
 new hoverEffect({
   parent: document.querySelector(".img-holder"),
   intensity: 0.1,
-  image1: "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293726/anchor_unaitc.png",
-  image2: "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293699/anchor-1_hf3hjx.png",
-  displacementImage: "https://res.cloudinary.com/du9veyxbv/image/upload/v1639294332/8_lug9kb.jpg",
+  image1:
+    "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293726/anchor_unaitc.png",
+  image2:
+    "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293699/anchor-1_hf3hjx.png",
+  displacementImage:
+    "https://res.cloudinary.com/du9veyxbv/image/upload/v1639294332/8_lug9kb.jpg",
   imagesRatio: 300 / 280,
 });
 // GSAP
@@ -82,14 +85,14 @@ gsap.from(".intro-content", 1.2, {
   scrollTrigger: ".intro-content",
   x: -500,
   ease: Power1.easeInOut,
-  delay:1.1
+  delay: 1.1,
 });
 gsap.from(".intro-marks", 1.2, {
   scrollTrigger: ".intro-content",
   x: 500,
   ease: Power1.easeInOut,
-  delay:0.9
-},);
+  delay: 0.9,
+});
 
 const down = document.querySelector(".down-btn");
 down.addEventListener("click", () => {
