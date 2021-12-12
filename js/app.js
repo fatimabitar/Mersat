@@ -3,12 +3,11 @@ new hoverEffect({
   parent: document.querySelector(".img-holder"),
   intensity: 0.1,
   image1:
-    "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293726/anchor_unaitc.png",
+    "../img/silver-anchor.png",
   image2:
-    "https://res.cloudinary.com/du9veyxbv/image/upload/v1639293699/anchor-1_hf3hjx.png",
+    "../img/wheel.png",
   displacementImage:
     "https://res.cloudinary.com/du9veyxbv/image/upload/v1639294332/8_lug9kb.jpg",
-  imagesRatio: 250 / 250,
 });
 // GSAP
 

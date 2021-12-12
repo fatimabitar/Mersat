@@ -2,12 +2,14 @@
   .hero {
     align-items: center;
   }
+  .anchor-container {
+    width: 70%;
+  }
   .img-holder {
-    width: 100%;
-    height: 80rem;
+    width: 70%;
   }
   .links-container {
-    right: 0;
+    right: 10%;
     bottom: 10%;
   }
   .intro {
@@ -31,11 +33,11 @@
   .intro-content .btn {
     font-size: 2.5rem;
   }
-  .col-4{
+  .col-4 {
     right: 0;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   html {
     font-size: 6.5px;
   }
@@ -47,11 +49,11 @@
   }
 
   .anchor-container {
-    width: 65%;
+    width: 70%;
   }
   .img-holder {
-    height: 100rem;
-    overflow: visible !important;
+    height: 80rem;
+    width: 78%;
   }
   .links-container {
     right: 0;
@@ -66,7 +68,7 @@
     -webkit-animation: none;
     margin-top: 5rem;
   }
-  .col-3{
+  .col-3 {
     left: 53%;
   }
   .col-4 {
@@ -103,6 +105,7 @@
   }
   .logo {
     width: 40%;
+    margin: 0 auto;
   }
   .content {
     transform: rotate(0);
@@ -122,19 +125,20 @@
     margin: 3rem auto 0;
   }
   .anchor-container {
-    margin-top: 3rem;
+    margin: 4rem 0;
     width: 100%;
-    height: auto;
+    height: 80rem;
   }
   .img-holder {
-    width: 90%;
+    width: 77%;
     margin: 0 auto;
   }
   .links-container {
     right: 0;
   }
   .down-btn {
-    bottom: -14%;
+    /* bottom: -4%; */
+    display: none;
   }
   /*  Intro Section */
   .intro {
@@ -213,8 +217,14 @@
   .col-1,
   .col-3 {
     width: 275px;
-    animation: none;
-    -webkit-animation: none;
+  }
+  .col-1 {
+    animation: upDownS 2s linear infinite alternate;
+    -webkit-animation: upDownS 2s linear infinite alternate;
+  }
+  .col-3 {
+    animation: upDownS 2s linear infinite reverse;
+    -webkit-animation: upDownS 2s linear infinite reverse;
   }
   .col-2,
   .col-4 {
@@ -246,8 +256,6 @@
   .col-1,
   .col-3 {
     width: 200px;
-    animation: none;
-    -webkit-animation: none;
   }
   .col-2,
   .col-4 {
@@ -259,10 +267,10 @@
   .down-btn {
     bottom: -5%;
   }
-  .col-1{
+  .col-1 {
     left: -2%;
   }
-  .col-3{
+  .col-3 {
     right: -6%;
   }
 }
@@ -291,13 +299,11 @@
   .col-1,
   .col-3 {
     width: 120px;
-    animation: none;
-    -webkit-animation: none;
   }
-  .col-1{
+  .col-1 {
     left: 5%;
   }
-  .col-3{
+  .col-3 {
     right: 15%;
   }
 }

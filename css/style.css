@@ -53,10 +53,10 @@ header {
 
 .logo-container {
   width: 100%;
+  padding: 3rem 0;
 }
 .logo {
   width: 30%;
-  padding: 3rem 0;
   text-align: center;
 }
 .logo img {
@@ -64,14 +64,13 @@ header {
 }
 .hero {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   position: relative;
 }
 .content {
   display: flex;
   justify-content: flex-end;
-
   flex-direction: column;
   width: 40%;
   line-height: 0.7;
@@ -105,19 +104,19 @@ header {
   color: rgba(255, 255, 255, 0.7);
 }
 .anchor-container {
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: start;
   align-items: center;
 }
 .img-holder {
-  width: 55%;
-  height: 50rem;
+  width: 80%;
+  height: 55rem;
   cursor: pointer;
 }
 .links-container {
   position: absolute;
-  right: 15%;
+  right: 10%;
   bottom: 12%;
   width: 5%;
   transform: rotate(-90deg);
