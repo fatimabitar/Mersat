@@ -17,6 +17,8 @@ a {
 }
 .linear {
   background: linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body::-webkit-scrollbar {
