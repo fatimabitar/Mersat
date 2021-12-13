@@ -194,6 +194,9 @@ gsap.from(".footer-imgs", 1, {
   ease: Power1.easeInOut,
   delay: 0.3,
 });
+
+
+
 /* Navigation Buttons */
 const down = document.querySelector(".down-btn");
 down.addEventListener("click", () => {

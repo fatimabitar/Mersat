@@ -6,12 +6,34 @@
   --gray: #555;
   --raduis: 25px;
 }
+.loading-screen {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  background: #7b91cf;
+  width: 0%;
+  height: 100%;
+}
+.load-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 10;
+}
 .portfolio {
   /* height: 100vh; */
   position: relative;
   background: url("../img/MassCircles.svg"),
     linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
   text-align: center;
+}
+.portfolio .container {
+  width: 80%;
 }
 
 .p-title {
@@ -26,6 +48,7 @@
   align-items: center;
   margin: 3rem auto 0;
   padding-bottom: 5rem;
+  text-align: center;
 }
 
 .card {
@@ -33,7 +56,7 @@
   font-size: 1.6rem;
   background-image: url("https://via.placeholder.com/250x275");
   background-size: cover;
-  width: 450px;
+  width: 400px;
   height: 300px;
   cursor: pointer;
   border-radius: 10px;
@@ -51,18 +74,23 @@
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  border: 4px solid var(--main);
+  border: 3px solid var(--main);
 }
 .card:nth-child(2),
 .card:nth-child(4),
 .card:nth-child(6),
-.card:nth-child(8){
-  border: 4px solid var(--yellow);
+.card:nth-child(8) {
+  border: 3px solid var(--yellow);
 }
 
 .card-content {
   padding: 1.5em;
-  background: linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.1)
+  );
   text-align: left;
   transition: all 0.5s linear;
   -webkit-transition: all 0.5s linear;
@@ -72,7 +100,6 @@
 }
 .card-content > *:not(.card-title) {
   opacity: 0;
-  transition-delay: 0.5s;
 }
 .card:hover .card-content {
   transform: translateY(0);
@@ -100,9 +127,9 @@
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition-delay: 1s;
 }
 .card:hover .card-title {
+  transition-delay: 1s;
   transform: translateY(0);
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -114,7 +141,7 @@
   position: absolute;
   height: 4px;
   width: 100%;
-  background: var(--yellow);
+  background: #264ea5;
   left: 0;
   bottom: 0;
   transform-origin: left;
@@ -137,17 +164,25 @@
   -o-transform: scaleX(1.1);
 }
 .card-body {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 1rem 0 2rem;
 }
 .card-content .btn {
-  background-color: var(--yellow);
+  background-color: #264ea5;
   padding: 1rem 2rem;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.card-content .btn:hover {
+  background-color: var(--yellow);
 }
 
 @media (hover) {
@@ -162,5 +197,70 @@
     -moz-transition: transform 0.5s ease;
     -ms-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
+  }
+}
+
+/*  MediaQuery  */
+
+
+@media (max-width: 1400px) {
+  .portfolio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .card{
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (max-width: 1200px) {
+  .portfolio-content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+  .p-title{
+    font-size: 5rem;
+    margin-bottom: 6rem;
+  }
+  .card{
+    margin: 0 auto;
+    width: 340px;
+    height: 240px;
+  }
+}
+@media (max-width: 992px) {
+  .card{
+    margin: 0 auto;
+    width: 320px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .p-title{
+    font-size: 4rem;
+  }
+  .portfolio-content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
+  .card{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 400px) {
+  .p-title{
+    font-size: 4rem;
+  }
+  .portfolio-content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
+  .card{
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
   }
 }
