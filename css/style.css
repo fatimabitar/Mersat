@@ -450,43 +450,43 @@ header {
   color: #666;
   font-weight: 500;
 }
-.dash{
+.dash {
   color: var(--main);
   font-size: 3rem;
   font-weight: 700;
   padding-right: 1rem;
 }
 
-.footer-inner{
+.footer-inner {
   display: flex;
   height: 100vh;
 }
-.footer-inner .container{
+.footer-inner .container {
   width: 80%;
 }
-.contact-info{
+.contact-info {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.atrr{
+.atrr {
   font-size: 2rem;
   letter-spacing: 2px;
   opacity: 0.8;
   font-weight: 400;
   margin: 2rem 0;
 }
-.value{
+.value {
   font-size: 3.5rem;
   width: 50%;
 }
-.footer-imgs{
+.footer-imgs {
   width: 50%;
   background-color: var(--gray-light);
   position: relative;
 }
-.markers{
+.markers {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -495,7 +495,7 @@ header {
   right: 15%;
   top: 45%;
 }
-.mark{
+.mark {
   width: 10px;
   height: 10px;
   margin-bottom: 1rem;
@@ -506,7 +506,7 @@ header {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.mark.active{
+.mark.active {
   width: 15px;
   height: 15px;
   background-color: transparent;

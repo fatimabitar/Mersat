@@ -106,7 +106,7 @@
   .title-next {
     width: 350px;
   }
-  .footer-inner{
+  .footer-inner {
     height: 75vh;
   }
 }
@@ -315,6 +315,7 @@
   /* About us */
   .line {
     width: 2px;
+    opacity: 0.5;
   }
   .title-container {
     margin: 5rem auto;

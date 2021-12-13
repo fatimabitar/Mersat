@@ -84,8 +84,8 @@ gsap.from(".intro-content", 1, {
 //About Us animation
 gsap.from(".line-1 , .line-2", 0.8, {
   scrollTrigger: ".title-container",
-  scale:0,
-  opacity:0,
+  scale: 0,
+  opacity: 0,
   ease: Power1.easeInOut,
   delay: 0.1,
 });
@@ -172,28 +172,28 @@ gsap.from(".goal-title", 0.8, {
 });
 gsap.from(".goal-inner .text", 1, {
   scrollTrigger: ".goal-inner .text",
-  stagger:0.2,
-  opacity:0,
+  stagger: 0.2,
+  opacity: 0,
   x: -1000,
   ease: Power1.easeInOut,
   delay: 1,
 });
 
 /* Footer animation */
-gsap.from(".contact-info",1,{
+gsap.from(".contact-info", 1, {
   scrollTrigger: ".footer-inner",
-  opacity:0,
+  opacity: 0,
   x: -500,
   ease: Power1.easeInOut,
   delay: 0.3,
-})
-gsap.from(".footer-imgs",1,{
+});
+gsap.from(".footer-imgs", 1, {
   scrollTrigger: ".footer-inner",
-  opacity:0,
+  opacity: 0,
   x: 500,
   ease: Power1.easeInOut,
   delay: 0.3,
-})
+});
 /* Navigation Buttons */
 const down = document.querySelector(".down-btn");
 down.addEventListener("click", () => {
