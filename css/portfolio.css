@@ -6,7 +6,7 @@
   --gray: #555;
   --raduis: 25px;
 }
-.loading-screen {
+/* .loading-screen {
   position: relative;
   padding-left: 0;
   padding-right: 0;
@@ -24,11 +24,13 @@
   overflow: hidden;
   pointer-events: none;
   z-index: 10;
-}
+} */
 .portfolio {
   position: relative;
   background: url("../img/MassCircles.svg"),
     linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 .portfolio .container {
@@ -96,6 +98,11 @@
   -moz-transition: all 0.5s linear;
   -ms-transition: all 0.5s linear;
   -o-transition: all 0.5s linear;
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
 }
 .card-content > *:not(.card-title) {
   opacity: 0;
@@ -184,25 +191,9 @@
   background-color: var(--yellow);
 }
 
-@media (hover) {
-  .card-content {
-    transform: translateY(55%);
-    -webkit-transform: translateY(55%);
-    -moz-transform: translateY(55%);
-    -ms-transform: translateY(55%);
-    -o-transform: translateY(55%);
-    transition: transform 0.5s ease;
-    -webkit-transition: transform 0.5s ease;
-    -moz-transition: transform 0.5s ease;
-    -ms-transition: transform 0.5s ease;
-    -o-transition: transform 0.5s ease;
-  }
-}
-
 /*  MediaQuery  */
 @media (max-width: 1400px) {
   .portfolio {
-    height: 100vh;
     display: flex;
     align-items: center;
   }
@@ -252,7 +243,7 @@
     font-size: 4rem;
   }
   .portfolio-content {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 300px);
     grid-gap: 3rem;
   }
   .card {
