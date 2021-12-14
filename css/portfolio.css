@@ -83,14 +83,29 @@
 .card:nth-child(8) {
   border: 3px solid var(--yellow);
 }
-
+.card-1 {
+  background-image: url("../img/brochur/cover.jpg");
+}
+.card-2 {
+  background-image: url("../img/cars/7.png");
+  background-color: var(--gray-light);
+}
+.card-3 {
+  background-image: url("../img/advertising/cover.jpg");
+}
+.card-4 {
+  background-image: url("../img/notebook/8.jpeg");
+}
+.card-5 {
+  background-image: url("../img/flyer/5.jpg");
+}
 .card-content {
   padding: 1.5em;
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.1)
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.5)
   );
   text-align: left;
   transition: all 0.5s linear;
@@ -133,6 +148,7 @@
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
+  /* color: #222; */
 }
 .card:hover .card-title {
   transition-delay: 1s;

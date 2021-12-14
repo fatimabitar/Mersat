@@ -1,0 +1,10 @@
+.img-1 {
+  top: -40%;
+  right: -12.5%;
+  width: 600px;
+  height: 400px;
+  z-index: 1;
+}
+.text-content {
+  left: 40%;
+}
