@@ -38,3 +38,14 @@
     -webkit-transform: translateY(-15px);
 }
 }
+
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}

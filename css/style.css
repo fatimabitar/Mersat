@@ -299,7 +299,7 @@ header {
   position: relative;
   overflow: hidden;
 }
-/* .line {
+.line {
   width: 5px;
   background-color: #e0b337;
   position: absolute;
@@ -325,7 +325,7 @@ header {
   -moz-transform: rotate(-35deg);
   -ms-transform: rotate(-35deg);
   -o-transform: rotate(-35deg);
-} */
+}
 .title-container {
   margin: 5rem 0;
   padding: 0 6rem;
