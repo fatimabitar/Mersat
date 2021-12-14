@@ -1,3 +1,9 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 310px);
@@ -7,7 +13,7 @@
   justify-content: center;
   margin: 0 auto;
 }
-.grid-item{
+.grid-item {
   width: 310px;
   height: 240px;
 }
@@ -102,7 +108,7 @@
   .text-content {
     left: 55%;
   }
-  .second-div{
+  .second-div {
     height: auto;
   }
 }
@@ -273,7 +279,7 @@
     height: 200px;
     margin: 5px auto;
   }
-  .img-1{
+  .img-1 {
     margin-left: 40px;
   }
   .text-content {

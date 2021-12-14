@@ -1,3 +1,9 @@
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+}
 .grid {
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(2, 250px);

@@ -6,6 +6,12 @@
   --gray: #555;
   --raduis: 25px;
 }
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
 .product-sec {
   position: relative;
 }
