@@ -135,7 +135,7 @@
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: repeat(1, 575px);
-    grid-template-rows: repeat(5, 400px);
+    grid-template-rows: repeat(5, 550px);
     grid-row-gap: 30px;
     justify-content: center;
   }
@@ -162,7 +162,7 @@
     margin: 5px auto;
   }
   .grid-item {
-    height: 400px;
+    height: 550px;
     width: 575px;
     text-align: center;
     margin: 0 auto;

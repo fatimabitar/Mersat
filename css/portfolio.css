@@ -6,25 +6,7 @@
   --gray: #555;
   --raduis: 25px;
 }
-/* .loading-screen {
-  position: relative;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  background: #7b91cf;
-  width: 0%;
-  height: 100%;
-}
-.load-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 10;
-} */
+
 .portfolio {
   position: relative;
   background: url("../img/MassCircles.svg"),
@@ -32,6 +14,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  height: 100vh;
 }
 .portfolio .container {
   width: 80%;
@@ -58,7 +41,7 @@
   background-image: url("https://via.placeholder.com/250x275");
   background-size: cover;
   width: 400px;
-  height: 300px;
+  height: 250px;
   cursor: pointer;
   border-radius: 10px;
   -webkit-border-radius: 10px;
