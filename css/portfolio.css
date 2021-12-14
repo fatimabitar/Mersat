@@ -98,6 +98,7 @@
 }
 .card-5 {
   background-image: url("../img/flyer/5.jpg");
+  background-position: center;
 }
 .card-content {
   padding: 1.5em;
