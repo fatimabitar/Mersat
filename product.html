@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brochurs</title>
+    <title>Prodct</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="css/framework.css" />
     <link rel="stylesheet" href="css/animation.css" />
     <link rel="stylesheet" href="css/product.css" />
-    <link rel="stylesheet" href="css/broshur.css" />
   </head>
   <body data-barba="wrapper" class="linear">
     <div class="line line-4"></div>
@@ -25,7 +24,7 @@
     <div class="product-sec">
       <div class="container">
         <div class="product-title">
-          <h2>Broshurs</h2>
+          <h2>Lorem ipsum dolor sit amet consectetur.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iste
             itaque dolores! Dolores odio excepturi similique laborum ad
@@ -34,19 +33,19 @@
         </div>
         <div class="grid">
           <div class="grid-item item-1">
-            <img src="img/brochur/1.jpg" alt="" />
+            <img src="https://via.placeholder.com/300x300" alt="" />
           </div>
           <div class="grid-item item-2">
-            <img src="img/brochur/2.jpg" alt="" />
+            <img src="https://via.placeholder.com/600x300" alt="" />
           </div>
           <div class="grid-item item-3">
-            <img src="img/brochur/3.jpg" alt="" />
+            <img src="https://via.placeholder.com/310x610" alt="" />
           </div>
           <div class="grid-item item-5">
-            <img src="img/brochur/5.jpg" alt="" />
+            <img src="https://via.placeholder.com/600x300" alt="" />
           </div>
           <div class="grid-item item-4">
-            <img src="img/brochur/4.jpg" alt="" />
+            <img src="https://via.placeholder.com/300x300" alt="" />
           </div>
         </div>
       </div>
@@ -62,14 +61,22 @@
                 cumque nisi doloremque? Exercitationem?
               </p>
             </div>
-            <img src="img/brochur/6.jpg" alt="" class="img-1" />
-            <img src="img/brochur/7.jpg" alt="" class="img-2" />
+            <img
+              src="https://via.placeholder.com/600x300"
+              alt=""
+              class="img-1"
+            />
+            <img
+              src="https://via.placeholder.com/450x300"
+              alt=""
+              class="img-2"
+            />
           </div>
         </div>
       </div>
       <div class="third-div">
         <div class="box">
-          <img src="img/brochur/8.jpg" alt="" class="img-3" />
+          <img src="https://via.placeholder.com/600x400" alt="" class="img-3" />
           <div class="text-content">
             <h2>Lorem ipsum dolor sit amet.</h2>
             <p>
@@ -82,55 +89,5 @@
         </div>
       </div>
     </div>
-    <!-- GSAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="js/app.js"></script>
-    <script>
-      gsap.from(".product-title h2", 0.8, {
-        scrollTrigger: ".product-sec",
-        y: -500,
-        ease: Power1.ease,
-      });
-      gsap.from(".product-title p", 0.8, {
-        scrollTrigger: ".product-sec",
-        y: -500,
-        ease: Power1.ease,
-        delay: 0.1,
-      });
-      gsap.from(".grid-item", 0.8, {
-        scrollTrigger: ".product-sec",
-        y:1000,
-        opcity:0,
-        stagger: 0.1,
-        ease: Power1.ease,
-        delay: 0.4,
-      });
-      gsap.from(".left", 0.8, {
-        scrollTrigger: ".second-div",
-        x:-800,
-        ease: Power1.ease,
-        delay: 0.6,
-      });
-      gsap.from(".img-1 , .img-2", 0.8, {
-        scrollTrigger: ".second-div",
-        x:800,
-        ease: Power1.ease,
-        delay: 0.6,
-      });
-      gsap.from(".text-content", 0.8, {
-        scrollTrigger: ".third-div",
-        x:1200,
-        ease: Power1.ease,
-        delay: 0.8,
-      });
-      gsap.from(".img-3 ", 0.8, {
-        scrollTrigger: ".third-div",
-        x:-800,
-        ease: Power1.ease,
-        delay: 0.8,
-      });
-    </script>
   </body>
 </html>

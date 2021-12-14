@@ -10,13 +10,27 @@
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
-.grid-item img {
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
+.item-1 {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 300px;
+  height: 375px;
 }
+.item-2 {
+  grid-area: 1 / 2 / 2 / 3;
+  width: 300px;
+  height: 375px;
+}
+.item-3 {
+  grid-area: 1 / 3 / 3 / 4;
+  width: 310px;
+  height: 685px;
+}
+.item-4 {
+  grid-area: 2 / 1 / 3 / 3;
+  width: 610px;
+  height: 300px;
+}
+
 img {
   border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
@@ -24,25 +38,12 @@ img {
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
 }
-.item-1 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.item-2 {
-  grid-area: 1 / 2 / 2 / 3;
-}
-.item-3 {
-  grid-area: 1 / 3 / 3 / 4;
-}
-.item-4 {
-  grid-area: 2 / 1 / 3 / 3;
-}
-
 .second-div {
   height: auto;
 }
 .wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .left {
   width: 50%;
@@ -50,10 +51,9 @@ img {
 
 .wrap img {
   position: static;
-  width: 225px;
-  height: 400px;
-  justify-self: center;
-  margin: 30px auto;
+  width: 300px;
+  height: 450px;
+  margin: 0 auto 30px;
 }
 .third-div {
   height: 100% !important;
@@ -104,6 +104,9 @@ img {
   width: 350px;
   height: 500px;
 }
+.img-5{
+  z-index: 3;
+}
 .fourth-div .left {
   text-align: right;
   position: relative;
@@ -133,12 +136,12 @@ img {
   .grid {
     margin-top: 50px;
     grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(2, 600px);
+    grid-template-rows: repeat(2, 400px);
     gap: 30px;
   }
   .grid-item {
     width: 300px;
-    height: 600px;
+    height: 400px;
   }
   .item-1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -206,6 +209,17 @@ img {
     display: flex;
     flex-direction: column-reverse;
   }
+  .third-div .right{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .right h2 , .right p{
+    margin-left: 0 !important;
+  }
+  .img-2{
+    margin-top: 30px !important;
+  }
   .img-1,
   .img-2,
   .img-3,
@@ -213,9 +227,9 @@ img {
   .img-6,
   .img-5 {
     position: static;
-    width: 80%;
+    width: 70%;
     margin-top: 15px;
-    height: 800px;
+    height: 600px;
   }
   .fourth-div {
     height: 100%;
@@ -246,11 +260,12 @@ img {
     flex-direction: column-reverse;
   }
   .third-div .left .img-3 {
-    width: 100%;
+    width: 80%;
   }
   .item-4 {
     display: none;
   }
+
   .img-1,
   .img-2,
   .img-3,
@@ -258,9 +273,9 @@ img {
   .img-6,
   .img-5 {
     position: static;
-    width: 100%;
+    width: 80%;
     margin-top: 15px;
-    height: 800px;
+    height: 600px;
   }
   .fourth-div {
     height: 100%;

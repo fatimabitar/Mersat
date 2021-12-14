@@ -195,8 +195,6 @@ gsap.from(".footer-imgs", 1, {
   delay: 0.3,
 });
 
-
-
 /* Navigation Buttons */
 const down = document.querySelector(".down-btn");
 down.addEventListener("click", () => {

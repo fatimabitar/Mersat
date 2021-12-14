@@ -47,6 +47,22 @@
           </div>
         </div>
       </div>
+      <div class="second-div">
+        <div class="container">
+          <div class="wrap">
+            <div class="left">
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                quia nulla dolorum! Maxime in quaerat ipsa eligendi error, eius,
+                deserunt incidunt consequuntur corporis rem saepe veritatis
+                cumque nisi doloremque? Exercitationem?
+              </p>
+            </div>
+            <img src="img/cars/6.png" alt="" class="img-1" />
+          </div>
+        </div>
+      </div>
       <div class="third-div">
         <div class="box">
           <img src="img/cars/7.png" alt="" class="img-3" />
@@ -62,5 +78,55 @@
         </div>
       </div>
     </div>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      gsap.from(".product-title h2", 0.8, {
+        scrollTrigger: ".product-sec",
+        y: -500,
+        ease: Power1.ease,
+      });
+      gsap.from(".product-title p", 0.8, {
+        scrollTrigger: ".product-sec",
+        y: -500,
+        ease: Power1.ease,
+        delay: 0.1,
+      });
+      gsap.from(".grid-item", 0.8, {
+        scrollTrigger: ".product-sec",
+        y: 1000,
+        opcity: 0,
+        stagger: 0.1,
+        ease: Power1.ease,
+        delay: 0.4,
+      });
+      gsap.from(".left", 0.8, {
+        scrollTrigger: ".second-div",
+        x: -800,
+        ease: Power1.ease,
+        delay: 0.6,
+      });
+      gsap.from(".img-1 , .img-2", 0.8, {
+        scrollTrigger: ".second-div",
+        x: 800,
+        ease: Power1.ease,
+        delay: 0.6,
+      });
+      gsap.from(".text-content", 0.8, {
+        scrollTrigger: ".third-div",
+        x: 1200,
+        ease: Power1.ease,
+        delay: 0.8,
+      });
+      gsap.from(".img-3 ", 0.8, {
+        scrollTrigger: ".third-div",
+        x: -800,
+        ease: Power1.ease,
+        delay: 0.8,
+      });
+    </script>
   </body>
 </html>
