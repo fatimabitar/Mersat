@@ -15,12 +15,12 @@
 html {
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden ;
+  /* overflow: hidden ; */
 }
 body {
   line-height: 1.5;
   color: var(--white);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 /********** Preloader ************/
 .overlay {
@@ -305,6 +305,7 @@ header {
   background-color: #e0b337;
   position: absolute;
   z-index: -1;
+
 }
 .line-1 {
   height: 630px;
