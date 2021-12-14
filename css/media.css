@@ -334,8 +334,8 @@
     flex-direction: column;
     align-items: center;
   }
-  .our-content .text,
-  .we-content .text {
+  .our-inner .our-content,
+  .we-inner .we-content {
     width: 100%;
     font-size: 2.2rem;
     text-align: center;

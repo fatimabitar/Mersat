@@ -15,11 +15,11 @@
 html {
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden ;
 }
 body {
   line-height: 1.5;
   color: var(--white);
+  overflow-x: hidden;
 }
 /********** Preloader ************/
 .overlay {
@@ -297,6 +297,7 @@ header {
   font-size: 1.6rem;
   color: #333;
   position: relative;
+  overflow: hidden;
 }
 /* .line {
   width: 5px;
@@ -328,7 +329,6 @@ header {
 .title-container {
   margin: 5rem 0;
   padding: 0 6rem;
-  overflow-x: hidden;
 }
 .about-title {
   font-size: 3rem;
@@ -373,6 +373,7 @@ header {
 .we-inner,
 .our-inner {
   width: 95%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
