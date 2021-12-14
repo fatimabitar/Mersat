@@ -15,12 +15,12 @@
 html {
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden ;
 }
 body {
   line-height: 1.5;
   color: var(--white);
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 /********** Preloader ************/
 .overlay {
