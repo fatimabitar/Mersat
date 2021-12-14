@@ -273,6 +273,7 @@
   .links-container {
     right: 50%;
     bottom: -50%;
+    display: none;
   }
   /* Intro Section */
   .intro {

@@ -297,7 +297,6 @@ header {
   font-size: 1.6rem;
   color: #333;
   position: relative;
-  overflow-x: hidden;
 }
 /* .line {
   width: 5px;
