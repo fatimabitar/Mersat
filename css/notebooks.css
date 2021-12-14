@@ -199,8 +199,8 @@
 }
 @media (max-width: 450px) {
   .grid{
-    grid-template-rows: repeat(5, 300px);
-    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(5, 250px);
+    grid-template-columns: repeat(1, 300px);
   }
   .grid-item {
     width: 100%;
@@ -218,6 +218,6 @@
   .img-3 {
     position: static;
     width: 90%;
-    height: 250px;
+    height: 200px;
   }
 }
