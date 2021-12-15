@@ -235,7 +235,7 @@
   html {
     font-size: 7px;
   }
-  .cover img{
+  .cover img {
     height: 20% !important;
   }
   .logo {
@@ -343,10 +343,7 @@
     font-size: 2.2rem;
     text-align: center;
   }
-  .our-goals .title-prev,
-  .title-next {
-    width: 200px;
-  }
+
   .goal-inner .text {
     font-size: 2rem;
   }

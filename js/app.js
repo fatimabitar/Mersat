@@ -21,12 +21,12 @@ gsap.to(".first", 1, {
 gsap.to(".second", 1, {
   top: "-100%",
   ease: Expo.easeInOut,
-  delay:0.4
+  delay: 0.4,
 });
 gsap.to(".third", 1, {
   top: "-100%",
   ease: Expo.easeInOut,
-  delay:0.6
+  delay: 0.6,
 });
 
 gsap.from(".logo", 1, {
@@ -202,4 +202,3 @@ const down = document.querySelector(".down-btn");
 down.addEventListener("click", () => {
   document.querySelector(".intro").scrollIntoView({ behavior: "smooth" });
 });
-
