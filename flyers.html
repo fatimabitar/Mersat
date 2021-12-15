@@ -32,7 +32,9 @@
     <span id="toTopButton">
       <i class="fa fa-arrow-up"></i>
     </span>
-    <!-- <div class="cover"><img src="img/wave.png" alt="" /></div> -->
+    <div class="overlay first"></div>
+    <div class="overlay second"></div>
+    <div class="overlay third"></div>
     <div class="line line-4"></div>
     <div class="line line-5"></div>
     <div class="product-sec">
@@ -122,19 +124,22 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
       <script src="js/app.js"></script>
       <script>
-        function removeElement(element) {
-          if (typeof element === "string") {
-            element = document.querySelector(element);
-          }
-          return function () {
-            element.parentNode.removeChild(element);
-          };
-        }
-        tl = new TimelineMax();
-        tl.to(".cover", 1.5, {
-          left: "110%",
-          ease: Power1.easeOut,
-        }).call(removeElement(".cover"));
+        //  Preloader
+        gsap.to(".first", 1, {
+          delay: 0.2,
+          top: "-100%",
+          ease: Expo.easeInOut,
+        });
+        gsap.to(".second", 1, {
+          top: "-100%",
+          ease: Expo.easeInOut,
+          delay: 0.4,
+        });
+        gsap.to(".third", 1, {
+          top: "-100%",
+          ease: Expo.easeInOut,
+          delay: 0.6,
+        });
 
         gsap.from(".product-title h2", 0.8, {
           scrollTrigger: ".product-sec",
