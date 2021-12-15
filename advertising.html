@@ -94,7 +94,7 @@
         scrollTrigger: ".product-sec",
         y: -500,
         ease: Power1.ease,
-        delay:1
+        delay: 1,
       });
       gsap.from(".product-title p", 0.8, {
         scrollTrigger: ".product-sec",
@@ -122,31 +122,37 @@
         scrollTrigger: ".second-div",
         x: -800,
         ease: Power1.ease,
-        delay: 0.5,
       });
       gsap.from(".img-1 , .img-2", 0.5, {
         scrollTrigger: ".second-div",
         stagger: 0.5,
         x: 1000,
         ease: Power1.ease,
-        delay: 0.5,
       });
       gsap.from(".text-content", 0.8, {
         scrollTrigger: ".third-div",
         x: -1400,
         ease: Power1.ease,
-        delay: 1.9,
       });
       gsap.from(".img-3 ", 0.8, {
         scrollTrigger: ".third-div",
         x: -800,
         ease: Power1.ease,
-        delay: 0.8,
       });
-      TweenMax.to(".cover", 1.5, {
+
+      function removeElement(element) {
+        if (typeof element === "string") {
+          element = document.querySelector(element);
+        }
+        return function () {
+          element.parentNode.removeChild(element);
+        };
+      }
+      tl = new TimelineMax();
+      tl.to(".cover", 1.5, {
         left: "110%",
         ease: Power1.easeOut,
-      });
+      }).call(removeElement(".cover"));
     </script>
   </body>
 </html>

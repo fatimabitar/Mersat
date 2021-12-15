@@ -235,6 +235,9 @@
   html {
     font-size: 7px;
   }
+  .cover img{
+    height: 20% !important;
+  }
   .logo {
     width: 70%;
     padding: 2rem 0;

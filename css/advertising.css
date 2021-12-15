@@ -224,6 +224,7 @@ body{
     grid-column-gap: 0px;
     grid-row-gap: 10px;
     justify-content: center;
+    margin-bottom: 50px;
   }
 
   .img-1,

@@ -224,8 +224,8 @@ body {
   .img-1 {
     margin-left: 75px;
   }
-  .img-3 {
-    height: auto;
+  .img-3 ,.img-4 , .img-5 , .img-6 {
+    height: 400px !important;
   }
   .grid-item {
     height: 400px;
@@ -233,6 +233,7 @@ body {
     text-align: center;
     margin: 0 auto;
   }
+
 }
 @media (max-width: 600px) {
   .grid {
@@ -241,6 +242,7 @@ body {
     grid-column-gap: 0px;
     grid-row-gap: 10px;
     justify-content: center;
+    margin-bottom: 0;
   }
 
   .img-1,
@@ -262,6 +264,12 @@ body {
   }
   .box {
     margin-bottom: 50px;
+  }
+  .second-div{
+    margin-top: 50px;
+  }
+  .wrap-2 .right{
+    width: 100%;
   }
 }
 @media (max-width: 450px) {

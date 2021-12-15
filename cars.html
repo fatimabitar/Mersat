@@ -85,10 +85,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="js/app.js"></script>
     <script>
-      TweenMax.to(".cover", 1.5, {
+      function removeElement(element) {
+        if (typeof element === "string") {
+          element = document.querySelector(element);
+        }
+        return function () {
+          element.parentNode.removeChild(element);
+        };
+      }
+      tl = new TimelineMax();
+      tl.to(".cover", 1.5, {
         left: "110%",
         ease: Power1.easeOut,
-      });
+      }).call(removeElement(".cover"));
+
+      
       gsap.from(".product-title h2", 0.8, {
         scrollTrigger: ".product-sec",
         y: -500,
@@ -121,25 +132,21 @@
         scrollTrigger: ".second-div",
         x: -800,
         ease: Power1.ease,
-        delay: 0.6,
       });
       gsap.from(".img-1", 0.8, {
         scrollTrigger: ".second-div",
         x: 800,
         ease: Power1.ease,
-        delay: 0.6,
       });
       gsap.from(".text-content", 0.8, {
         scrollTrigger: ".third-div",
         x: -1400,
         ease: Power1.ease,
-        delay: 0.8,
       });
       gsap.from(".img-3 ", 0.8, {
         scrollTrigger: ".third-div",
         x: -800,
         ease: Power1.ease,
-        delay: 0.8,
       });
     </script>
   </body>
