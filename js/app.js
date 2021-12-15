@@ -12,21 +12,33 @@ new hoverEffect({
 // GSAP
 
 //  Preloader
-TweenMax.to(".first", 1, {
-  delay: 0.2,
+
+function removeElement(element) {
+  if (typeof element === "string") {
+    element = document.querySelector(element);
+  }
+  return function () {
+    element.parentNode.removeChild(element);
+  };
+}
+
+tl = new TimelineMax();
+tl.to(".first", 0.4, {
+  delay:0.2,
   top: "-100%",
   ease: Expo.easeInOut,
-});
-TweenMax.to(".second", 1, {
-  delay: 0.5,
-  top: "-100%",
-  ease: Expo.easeInOut,
-});
-TweenMax.to(".third", 1, {
-  delay: 0.7,
-  top: "-100%",
-  ease: Expo.easeInOut,
-});
+})
+  .call(removeElement(".first"))
+  .to(".second", 0.4, {
+    top: "-100%",
+    ease: Expo.easeInOut,
+  })
+  .call(removeElement(".second"))
+  .to(".third", 0.4, {
+    top: "-100%",
+    ease: Expo.easeInOut,
+  })
+  .call(removeElement(".third"));
 
 gsap.from(".logo", 1, {
   x: "-550",

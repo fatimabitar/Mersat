@@ -200,6 +200,9 @@
     width: 90%;
     height: 400px;
   }
+  .img-3{
+    height: 200px !important;
+  }
   .third-div {
     height: auto;
   }
