@@ -22,6 +22,7 @@ body {
   overflow-x: hidden;
 }
 /********** Preloader ************/
+
 .overlay {
   position: absolute;
   width: 100%;
