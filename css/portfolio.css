@@ -6,7 +6,6 @@
   --gray: #555;
   --raduis: 25px;
 }
-
 .portfolio {
   position: relative;
   background: url("../img/MassCircles.svg"),
@@ -223,10 +222,10 @@
   }
 }
 @media (max-width: 992px) {
-  .portfolio{
+  .portfolio {
     height: 100% !important;
   }
-  .portfolio-content{
+  .portfolio-content {
     padding-bottom: 150px;
   }
   .card {
@@ -237,7 +236,7 @@
 }
 
 @media (max-width: 768px) {
-  .portfolio{
+  .portfolio {
     height: 100% !important;
   }
   .p-title {
@@ -252,7 +251,7 @@
   }
 }
 @media (max-width: 400px) {
-  .portfolio{
+  .portfolio {
     height: 100%;
   }
   .p-title {

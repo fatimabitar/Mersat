@@ -23,6 +23,7 @@
   <body class="linear">
     <div class="line line-4"></div>
     <div class="line line-5"></div>
+    <div class="cover"><img src="img/wave.png" alt="" /></div>
     <div class="product-sec">
       <div class="container">
         <div class="product-title">
@@ -93,44 +94,58 @@
         scrollTrigger: ".product-sec",
         y: -500,
         ease: Power1.ease,
+        delay:1
       });
       gsap.from(".product-title p", 0.8, {
         scrollTrigger: ".product-sec",
         y: -500,
         ease: Power1.ease,
-        delay: 0.1,
+        delay: 1.1,
       });
-      gsap.from(".grid-item", 0.8, {
+      gsap.from(".item-1 , .item-4", 1, {
         scrollTrigger: ".product-sec",
-        y:1000,
-        opacity:0,
+        x: -1500,
+        opcity: 0,
         stagger: 0.1,
         ease: Power1.ease,
-        delay: 0.4,
+        delay: 1.5,
+      });
+      gsap.from(".item-2 , .item-3 ,.item-5", 1, {
+        scrollTrigger: ".product-sec",
+        x: 1500,
+        opcity: 0,
+        stagger: 0.1,
+        ease: Power1.ease,
+        delay: 1.5,
       });
       gsap.from(".left", 0.8, {
         scrollTrigger: ".second-div",
-        x:-800,
+        x: -800,
         ease: Power1.ease,
-        delay: 0.6,
+        delay: 0.5,
       });
-      gsap.from(".img-1 , .img-2", 0.8, {
+      gsap.from(".img-1 , .img-2", 0.5, {
         scrollTrigger: ".second-div",
-        x:800,
+        stagger: 0.5,
+        x: 1000,
         ease: Power1.ease,
-        delay: 0.6,
+        delay: 0.5,
       });
       gsap.from(".text-content", 0.8, {
         scrollTrigger: ".third-div",
-        x:800,
+        x: -1400,
         ease: Power1.ease,
-        delay: 0.8,
+        delay: 1.9,
       });
       gsap.from(".img-3 ", 0.8, {
         scrollTrigger: ".third-div",
-        x:-800,
+        x: -800,
         ease: Power1.ease,
         delay: 0.8,
+      });
+      TweenMax.to(".cover", 1.5, {
+        left: "110%",
+        ease: Power1.easeOut,
       });
     </script>
   </body>

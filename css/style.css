@@ -459,6 +459,7 @@ header {
 }
 
 .footer-inner {
+  margin-top: 50px;
   display: flex;
   height: 100vh;
 }

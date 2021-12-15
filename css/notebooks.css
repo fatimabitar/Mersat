@@ -25,6 +25,7 @@
   left: 30%;
   z-index: 3;
 }
+
 .img-2 {
   width: 500px;
   height: 400px;
@@ -36,9 +37,18 @@
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 .third-div {
   height: 95vh;
+}
+.img-2:hover{
+  filter: drop-shadow(10px 5px 20px #222);
+  -webkit-filter: drop-shadow(10px 5px 20px #222);
 }
 
 @media (max-width: 1300px) {

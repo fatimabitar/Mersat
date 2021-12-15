@@ -166,7 +166,8 @@ gsap.from(".our-goals .title-next", 0.8, {
 });
 gsap.from(".goal-title", 0.8, {
   scrollTrigger: ".goal-inner",
-  y: 500,
+  y: -500,
+  opacity: 0,
   ease: Power1.easeInOut,
   delay: 0.3,
 });
@@ -181,14 +182,14 @@ gsap.from(".goal-inner .text", 1, {
 
 /* Footer animation */
 gsap.from(".contact-info", 1, {
-  scrollTrigger: ".footer-inner",
+  scrollTrigger: ".atrr",
   opacity: 0,
   x: -500,
   ease: Power1.easeInOut,
   delay: 0.3,
 });
 gsap.from(".footer-imgs", 1, {
-  scrollTrigger: ".footer-inner",
+  scrollTrigger: ".atrr",
   opacity: 0,
   x: 500,
   ease: Power1.easeInOut,

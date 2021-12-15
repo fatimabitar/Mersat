@@ -43,6 +43,12 @@ img {
   -moz-border-radius: 0 !important;
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
+  transition: all 0.5s ease !important;
+  -webkit-transition: all 0.5s ease !important;
+  -moz-transition: all 0.5s ease !important;
+  -ms-transition: all 0.5s ease !important;
+  -o-transition: all 0.5s ease !important;
+  cursor: pointer;
 }
 .second-div {
   height: auto;
@@ -110,9 +116,6 @@ img {
   width: 350px;
   height: 500px;
 }
-.img-5 {
-  z-index: 3;
-}
 .fourth-div .left {
   text-align: right;
   position: relative;
@@ -121,6 +124,7 @@ img {
   position: absolute;
   right: 30%;
   top: -30%;
+  z-index: 3;
 }
 .wrap-2 .right h2 {
   font-size: 32px;
@@ -130,6 +134,12 @@ img {
   font-size: 16px;
   width: 80%;
   padding: 2rem 0;
+}
+.img-4:hover,
+.img-5:hover,
+.img-6:hover {
+  filter: drop-shadow(10px 5px 20px #222);
+  -webkit-filter: drop-shadow(10px 5px 20px #222);
 }
 
 @media (max-width: 1450px) {
