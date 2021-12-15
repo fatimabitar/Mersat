@@ -185,14 +185,14 @@ gsap.from(".goal-inner .text", 1, {
 gsap.from(".contact-info", 1, {
   scrollTrigger: ".atrr",
   opacity: 0,
-  x: -500,
+  y: -500,
   ease: Power1.easeInOut,
   delay: 0.3,
 });
 gsap.from(".footer-imgs", 1, {
   scrollTrigger: ".atrr",
   opacity: 0,
-  x: 500,
+  y: 500,
   ease: Power1.easeInOut,
   delay: 0.3,
 });
