@@ -13,32 +13,21 @@ new hoverEffect({
 
 //  Preloader
 
-function removeElement(element) {
-  if (typeof element === "string") {
-    element = document.querySelector(element);
-  }
-  return function () {
-    element.parentNode.removeChild(element);
-  };
-}
-
-tl = new TimelineMax();
-tl.to(".first", 0.4, {
-  delay:0.2,
+gsap.to(".first", 1, {
+  delay: 0.2,
   top: "-100%",
   ease: Expo.easeInOut,
-})
-  .call(removeElement(".first"))
-  .to(".second", 0.4, {
-    top: "-100%",
-    ease: Expo.easeInOut,
-  })
-  .call(removeElement(".second"))
-  .to(".third", 0.4, {
-    top: "-100%",
-    ease: Expo.easeInOut,
-  })
-  .call(removeElement(".third"));
+});
+gsap.to(".second", 1, {
+  top: "-100%",
+  ease: Expo.easeInOut,
+  delay:0.4
+});
+gsap.to(".third", 1, {
+  top: "-100%",
+  ease: Expo.easeInOut,
+  delay:0.6
+});
 
 gsap.from(".logo", 1, {
   x: "-550",
