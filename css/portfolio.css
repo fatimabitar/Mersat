@@ -87,9 +87,9 @@
   padding: 1.5em;
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.9),
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.5)
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.5),
+    transparent
   );
   text-align: left;
   transition: all 0.5s linear;

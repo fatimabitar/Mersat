@@ -42,7 +42,31 @@ body {
 .third {
   left: 66.6%;
 }
-
+.back-btn{
+  position: fixed;
+  right: 7%;
+  bottom: 5%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  animation: upDownS 3s linear infinite;
+  -webkit-animation: upDownS 3s linear infinite;
+  box-shadow: 0 30px 20px rgba(0, 0, 0, 0.27);
+  z-index: 5;
+}
+.back-btn i{
+  font-size: 20px;
+  color: var(--main);
+}
 /***********
  * Header Section
  **************/
@@ -298,7 +322,7 @@ header {
   font-size: 1.6rem;
   color: #333;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .line {
   width: 5px;

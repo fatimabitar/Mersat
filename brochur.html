@@ -19,11 +19,14 @@
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/broshur.css" />
   </head>
-  <body data-barba="wrapper" class="linear">
-    <div class="cover"><img src="img/wave.png" alt="" /></div>
+  <body class="linear">
+    <!-- <div class="cover"><img src="img/wave.png" alt="" /></div> -->
     <div class="line line-4"></div>
     <div class="line line-5"></div>
     <div class="product-sec">
+      <!-- <div class="back-btn">
+        <a href="portfolio.html"><i class="fas fa-arrow-left"></i></a>
+      </div> -->
       <div class="container">
         <div class="product-title">
           <h2>Broshurs</h2>
@@ -99,7 +102,7 @@
         left: "110%",
         ease: Power1.easeOut,
       }).call(removeElement(".cover"));
-      
+
       gsap.from(".product-title h2", 0.8, {
         scrollTrigger: ".product-sec",
         y: -500,
