@@ -9,7 +9,6 @@ new hoverEffect({
   displacementImage:
     "https://res.cloudinary.com/du9veyxbv/image/upload/v1639294332/8_lug9kb.jpg",
 });
-// GSAP
 
 //  Preloader
 
