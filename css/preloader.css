@@ -1,0 +1,127 @@
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+#logo path:nth-child(1) {
+  stroke-dasharray: 369.367981;
+  /* stroke-dashoffset: 473.7960510253906; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+
+#logo path:nth-child(2) {
+  stroke-dasharray: 262.36798095703125;
+  /* stroke-dashoffset: 262.36798095703125; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(3) {
+  stroke-dasharray: 167.61599731445312;
+  /* stroke-dashoffset: 167.61599731445312; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(4) {
+  stroke-dasharray: 731.232177734375;
+  /* stroke-dashoffset: 731.232177734375; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(5) {
+  stroke-dasharray: 466.5599670410156;
+  /* stroke-dashoffset: 466.5599670410156; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(6) {
+  stroke-dasharray: 521.3294067382812;
+  /* stroke-dashoffset: 521.3294067382812; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(7) {
+  stroke-dasharray: 485.0057373046875;
+  /* stroke-dashoffset: 485.0057373046875; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(8) {
+  stroke-dasharray: 473.796142578125;
+  /* stroke-dashoffset: 473.796142578125; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+
+#logo path:nth-child(9) {
+  stroke-dasharray: 358.5600280761719;
+  /* stroke-dashoffset: 358.5600280761719; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(10) {
+  stroke-dasharray: 473.7960510253906;
+  /* stroke-dashoffset: 473.7960510253906; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(11) {
+  stroke-dasharray: 262.36798095703125;
+  /* stroke-dashoffset: 262.36798095703125; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(12) {
+  stroke-dasharray: 167.61599731445312;
+  /* stroke-dashoffset: 167.61599731445312; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(13) {
+  stroke-dasharray: 731.232177734375;
+  /* stroke-dashoffset: 731.232177734375; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(14) {
+  stroke-dasharray: 466.5599670410156;
+  /* stroke-dashoffset: 466.5599670410156; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(15) {
+  stroke-dasharray: 521.3294067382812;
+  /* stroke-dashoffset: 521.3294067382812; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(16) {
+  stroke-dasharray: 485.0057373046875;
+  /* stroke-dashoffset: 485.0057373046875; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(17) {
+  stroke-dasharray: 473.796142578125;
+  /* stroke-dashoffset: 473.796142578125; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+#logo path:nth-child(18) {
+  stroke-dasharray: 358.5600280761719;
+  /* stroke-dashoffset: 358.5600280761719; */
+  animation: line-anim 2s ease forwards;
+  -webkit-animation: line-anim 2s ease forwards;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

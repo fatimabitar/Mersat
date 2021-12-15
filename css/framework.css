@@ -38,7 +38,6 @@ body::-webkit-scrollbar {
   height: 100% !important;
 }
 
-
 /* Start To Top Button  */
 #toTopButton {
   position: fixed;
@@ -60,6 +59,11 @@ body::-webkit-scrollbar {
   font-weight: 400;
   animation: pulse 2s infinite ease-in-out;
   -webkit-animation: pulse 2s infinite ease-in-out;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
 }
 
 #toTopButton:hover {

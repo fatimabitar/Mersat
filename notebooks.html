@@ -12,6 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link rel="stylesheet" href="css/framework.css" />
@@ -22,6 +29,9 @@
     <link rel="stylesheet" href="css/notebooks.css" />
   </head>
   <body class="linear">
+    <span id="toTopButton">
+      <i class="fa fa-arrow-up"></i>
+    </span>
     <!-- <div class="cover"><img src="img/wave.png" alt="" /></div> -->
     <div class="line line-4"></div>
     <div class="line line-5"></div>
@@ -87,6 +97,7 @@
         </div>
       </div>
     </div>
+    <script src="js/toTop.js"></script>
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
@@ -107,7 +118,6 @@
         ease: Power1.easeOut,
       }).call(removeElement(".cover"));
 
-      
       gsap.from(".product-title h2", 0.8, {
         scrollTrigger: ".product-sec",
         y: -500,
