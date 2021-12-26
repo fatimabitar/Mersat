@@ -1,49 +1,65 @@
 gsap.registerPlugin(CSSRulePlugin);
 //  Preloader
+gsap.to(".first", 1, {
+  delay: 0.2,
+  top: "-100%",
+  ease: Expo.easeInOut,
+  delay:2,
+});
+gsap.to(".second", 1, {
+  top: "-100%",
+  ease: Expo.easeInOut,
+  delay: 2.4,
+});
+gsap.to(".third", 1, {
+  top: "-100%",
+  ease: Expo.easeInOut,
+  delay: 2.6,
+});
 
 gsap.from(".logo", 1, {
   x: "-550",
   ease: Expo.easeInOut,
-  delay: 2,
+  delay: 2.8,
 });
 gsap.from(".title", 1, {
   y: "-550",
   ease: Expo.easeInOut,
-  delay: 2.1,
+  delay: 2.8,
 });
 gsap.from(".caption", 1, {
   y: "-600",
   ease: Expo.easeInOut,
-  delay: 2.2,
+  delay: 2.9,
 });
 gsap.from(".hero .text", 1, {
   y: "-550",
   ease: Expo.easeInOut,
-  delay: 2.3,
+  delay: 3,
 });
 gsap.from(".subtitle", 1, {
   x: "-750",
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 2.6,
+  delay: 3.3,
 });
 gsap.from(".links", 1, {
   x: "-500",
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 2.7,
+  delay: 3.6,
 });
 gsap.from(".anchor-container", 1.2, {
   y: "-1150",
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 2.9,
+  delay: 3.6,
 });
 gsap.from(".down-btn", 1.2, {
   scale: 0,
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 3,
+  delay: 4,
 });
 
 //Intro Animation
