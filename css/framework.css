@@ -45,8 +45,8 @@ body::-webkit-scrollbar {
 /* Start To Top Button  */
 #toTopButton {
   position: fixed;
-  bottom: 30px;
-  right: 50px;
+  bottom: 3%;
+  right: 3%;
   color: #3358a7;
   display: inline-block;
   width: 40px;

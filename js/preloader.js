@@ -1,5 +1,3 @@
-window.addEventListener("load", () => {
-  setTimeout(() => {
-    document.getElementById("loading").classList.toggle("loaded");
-  }, 2000);
-});
+setTimeout(() => {
+  document.getElementById("loading").classList.toggle("loaded");
+}, 2000);
