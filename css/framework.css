@@ -66,6 +66,8 @@ body::-webkit-scrollbar {
   -moz-transform: scale(0);
   -ms-transform: scale(0);
   -o-transform: scale(0);
+  animation: pulse 1.3s ease infinite;
+  -webkit-animation: pulse 1.3s ease infinite;
 }
 
 #toTopButton:hover {

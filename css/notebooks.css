@@ -197,12 +197,12 @@
   .img-2,
   .img-3 {
     position: static;
-    width: 90%;
-    height: 400px;
+    width: 80%;
+    height: 300px !important;
   }
-  .img-3{
-    height: 200px !important;
-  }
+  /* .img-3{
+    height: 200px;
+  } */
   .third-div {
     height: auto;
   }
@@ -231,6 +231,6 @@
   .img-3 {
     position: static;
     width: 90%;
-    height: 200px;
+    height: 200px !important;
   }
 }

@@ -153,21 +153,21 @@
           ease: Power1.ease,
           delay: 1.4,
         });
-        gsap.from(".item-1 , .item-4", 0.8, {
+        gsap.from(".item-1 , .item-4", 1.3, {
           scrollTrigger: ".product-sec",
           x: -1500,
           opcity: 0,
           stagger: 0.1,
-          ease: Power1.ease,
-          delay: 1.8,
+          ease: Power1.easeinOut,
+          delay: 1.5,
         });
-        gsap.from(".item-2 , .item-3", 0.8, {
+        gsap.from(".item-2 , .item-3", 1.3, {
           scrollTrigger: ".product-sec",
           x: 1500,
           opcity: 0,
           stagger: 0.1,
-          ease: Power1.ease,
-          delay: 1.8,
+          ease: Power1.easeinOut,
+          delay: 1.5,
         });
         gsap.from(".second-div .left", 0.8, {
           scrollTrigger: ".second-div",
@@ -187,12 +187,13 @@
         gsap.from(".img-3", 0.8, {
           scrollTrigger: ".third-div",
           x: -800,
-          ease: Power1.ease,
+          ease: Power1.easeinOut,
         });
         gsap.from(".img-4", 0.8, {
           scrollTrigger: ".third-div",
           x: -800,
-          ease: Power1.ease,
+          ease: Power1.easeinOut,
+          delay: 0.2,
         });
         gsap.from(".fourth-div .right", 0.8, {
           scrollTrigger: ".fourth-div",
