@@ -156,7 +156,7 @@ gsap.from(".our-goals .title-next", 0.8, {
 });
 gsap.from(".goal-title", 0.8, {
   scrollTrigger: ".goal-inner",
-  y: -500,
+  y: -100,
   opacity: 0,
   ease: Power1.easeIn,
   delay: 0.3,
