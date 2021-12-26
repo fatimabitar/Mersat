@@ -45,7 +45,7 @@ body {
   left: 66.6%;
   width: 33.33%;
 }
-.back-btn{
+.back-btn {
   position: fixed;
   right: 7%;
   bottom: 5%;
@@ -66,7 +66,7 @@ body {
   box-shadow: 0 30px 20px rgba(0, 0, 0, 0.27);
   z-index: 5;
 }
-.back-btn i{
+.back-btn i {
   font-size: 20px;
   color: var(--main);
 }
@@ -299,6 +299,7 @@ header {
   border: 3px solid var(--yellow);
 }
 .col-1 {
+  top: 0;
   animation: upDown 30s linear infinite alternate;
   -webkit-animation: upDown 30s linear infinite alternate;
 }
@@ -310,6 +311,7 @@ header {
 }
 .col-3 {
   left: 52%;
+  top: 0;
   animation: upDown 30s linear infinite alternate;
   -webkit-animation: upDown 30s linear infinite alternate;
 }

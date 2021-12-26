@@ -4,7 +4,7 @@ gsap.to(".first", 1, {
   delay: 0.2,
   top: "-100%",
   ease: Expo.easeInOut,
-  delay:2,
+  delay: 2,
 });
 gsap.to(".second", 1, {
   top: "-100%",
@@ -90,6 +90,7 @@ gsap.from(".title-container .text", 0.8, {
   ease: Power1.easeInOut,
   delay: 0.5,
 });
+/* WE ARE */
 gsap.from(".we-are .title-prev", 0.8, {
   scrollTrigger: ".title-container",
   x: -500,
@@ -157,32 +158,40 @@ gsap.from(".goal-title", 0.8, {
   scrollTrigger: ".goal-inner",
   y: -500,
   opacity: 0,
-  ease: Power1.easeInOut,
+  ease: Power1.easeIn,
   delay: 0.3,
 });
 gsap.from(".goal-inner .text", 1, {
   scrollTrigger: ".goal-inner .text",
-  stagger: 0.2,
+  stagger: 0.3,
   opacity: 0,
-  x: -1000,
-  ease: Power1.easeInOut,
+  xPercent: -30,
+  ease: Power1.easeIn,
   delay: 1,
 });
 
 /* Footer animation */
 gsap.from(".contact-info", 1, {
-  scrollTrigger: ".footer",
+  scrollTrigger: {
+    trigger: ".footer",
+    start: "-=200",
+    end: "-=200",
+    // markers:true
+  },
   opacity: 0,
-  y: -500,
+  y: -200,
   ease: Power1.easeInOut,
-  delay: 0.3,
 });
 gsap.from(".footer-imgs", 1, {
-  scrollTrigger: ".footer",
+  scrollTrigger: {
+    trigger: ".footer",
+    start: "-=200",
+    end: "-=200",
+    // markers:true
+  },
   opacity: 0,
-  y: 500,
+  y: 200,
   ease: Power1.easeInOut,
-  delay: 0.5,
 });
 
 /* Navigation Buttons */
