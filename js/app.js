@@ -4,46 +4,46 @@ gsap.registerPlugin(CSSRulePlugin);
 gsap.from(".logo", 1, {
   x: "-550",
   ease: Expo.easeInOut,
-  delay: 1,
+  delay: 2,
 });
 gsap.from(".title", 1, {
   y: "-550",
   ease: Expo.easeInOut,
-  delay: 1.1,
+  delay: 2.1,
 });
 gsap.from(".caption", 1, {
   y: "-600",
   ease: Expo.easeInOut,
-  delay: 1.2,
+  delay: 2.2,
 });
 gsap.from(".hero .text", 1, {
   y: "-550",
   ease: Expo.easeInOut,
-  delay: 1.3,
+  delay: 2.3,
 });
 gsap.from(".subtitle", 1, {
   x: "-750",
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 1.6,
+  delay: 2.6,
 });
 gsap.from(".links", 1, {
   x: "-500",
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 1.7,
+  delay: 2.7,
 });
 gsap.from(".anchor-container", 1.2, {
   y: "-1150",
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 1.9,
+  delay: 2.9,
 });
 gsap.from(".down-btn", 1.2, {
   scale: 0,
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 1.8,
+  delay: 3,
 });
 
 //Intro Animation
