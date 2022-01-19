@@ -74,7 +74,7 @@ body {
 header {
   height: 100vh;
   font-size: 1.6rem;
-  border-bottom: 3px solid var(--main);
+  /* border-bottom: 3px solid var(--main); */
 }
 
 .logo-container {
@@ -129,6 +129,7 @@ header {
   line-height: 1.2;
   margin-top: 3rem;
   color: rgba(255, 255, 255, 0.7);
+  text-transform: capitalize;
 }
 .anchor-container {
   width: 50%;
@@ -201,6 +202,82 @@ header {
   width: 3px;
   background-color: #fff;
 }
+
+/* Our services */
+/*********************************/
+.services {
+  background: linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 5rem 0;
+  overflow: hidden;
+}
+.services-title {
+  margin: 2rem auto;
+  text-align: center;
+}
+.services-title h2 {
+  font-size: 4rem;
+  margin: 0 auto;
+}
+.services-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.services-flex h3 {
+  font-size: 2.3rem;
+  text-transform: capitalize;
+  margin: 5rem 0;
+  padding: 0 10rem 0 0;
+}
+.graphic {
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  font-size: 3rem;
+  left: 26%;
+  top: 60%;
+}
+.logoModuleWrapper {
+  width: 100%;
+  height: 260px;
+  position: relative;
+  margin: auto;
+  background: var(--gray-light);
+  /* overflow: hidden; */
+}
+
+.logoSlide {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  /* color: #333; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.logoSlide:nth-child(1),
+.logoSlide:nth-child(3),
+.logoSlide:nth-child(5),
+.logoSlide:nth-child(7) {
+  color: #3358a7;
+}
+.logoSlide p {
+  /* font-size: 2rem; */
+  font-weight: 600;
+}
+
+.logoSlides {
+  position: relative;
+  left: -300px;
+}
+
 /****** Intro Section ******/
 .intro {
   height: 110vh;
@@ -237,6 +314,7 @@ header {
   width: 25%;
   font-size: 1.7rem;
   margin: 2rem 0 3rem;
+  text-transform: capitalize;
 }
 .intro-content .btn {
   font-size: 1.7rem;
@@ -477,6 +555,7 @@ header {
   margin: 5rem auto;
   color: #666;
   font-weight: 500;
+  /* overflow-y: hidden; */
 }
 .dash {
   color: var(--main);
@@ -507,7 +586,7 @@ header {
   margin: 2rem 0;
 }
 .value {
-  font-size: 3.5rem;
+  font-size: 2.7rem;
   width: 50%;
 }
 .footer-imgs {

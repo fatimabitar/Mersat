@@ -32,18 +32,21 @@ body {
 .item-5 {
   grid-area: 2 / 2 / 3 / 3;
 }
-
+.wrap{
+  display: flex;
+  flex-direction: row-reverse;
+}
 .wrap img {
   box-shadow: none;
 }
 .img-1 {
-  transform: rotateY(180deg);
+  /* transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  top: -40%;
-  right: -12.5%;
+  -o-transform: rotateY(180deg); */
+  top: -20%;
+  left: -12.5%;
   width: 800px;
   height: 500px;
 }
@@ -63,6 +66,7 @@ body {
 .third-div {
   display: flex;
   height: auto;
+  flex-direction: row-reverse;
 }
 .third-div .box {
   display: flex;

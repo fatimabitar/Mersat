@@ -85,12 +85,7 @@
 }
 .card-content {
   padding: 1.5em;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0.5),
-    transparent
-  );
+  background: linear-gradient(    to top,    rgba(0, 0, 0, 1),    rgba(0, 0, 0, 0.5),    transparent  );
   text-align: left;
   transition: all 0.5s linear;
   -webkit-transition: all 0.5s linear;
@@ -251,6 +246,10 @@
   }
   .card {
     margin: 0 auto;
+  }
+  .card-content .btn {
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 400px) {

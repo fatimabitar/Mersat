@@ -20,15 +20,15 @@
     margin-top: 5rem;
   }
   .intro-title {
-    font-size: 6rem;
+    font-size: 3.5rem;
   }
   .intro-content .text {
     width: 50%;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 5rem 0;
   }
   .intro-content .btn {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
   }
   .col-4 {
     right: 0;
@@ -410,6 +410,25 @@
   .goal-inner .text {
     font-size: 2rem;
   }
+  /* Our services */
+  .services{
+    height: 70vh;
+  }
+  .services-title h2{
+    font-size: 3rem;
+  }
+  .services-flex h3 {
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    margin: 7rem 0;
+    padding: 0 2rem 0 0;
+  }
+  .logoSlide{
+    font-size: 15px;
+  }
+  .arrow{
+    left: 30%;
+  }
 }
 
 @media (max-width: 450px) {
@@ -465,4 +484,15 @@
     width: 75px;
     height: 35px;
   }
+
+    /* Our services */
+    .services-title h2{
+      font-size: 2.5rem;
+    }
+    .logoSlide{
+      font-size: 15px;
+    }
+    .arrow{
+      left: 30%;
+    }
 }
