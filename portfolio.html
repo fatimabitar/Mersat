@@ -19,6 +19,9 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- CSS stylesheets -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
@@ -37,7 +40,12 @@
       <div class="container">
         <h1 class="p-title">Portfolio</h1>
         <div class="portfolio-content">
-          <div class="card card-1">
+          <div
+            class="card card-1"
+            data-aos="zoom-in"
+            data-aos-delay="1700"
+            data-aos-duration="600"
+          >
             <div class="card-content">
               <h2 class="card-title uppercase">brochur</h2>
               <p class="card-body">
@@ -47,7 +55,12 @@
               <a href="brochur.html" class="btn uppercase">see more</a>
             </div>
           </div>
-          <div class="card card-2">
+          <div
+            class="card card-2"
+            data-aos="zoom-in"
+            data-aos-delay="1900"
+            data-aos-duration="600"
+          >
             <div class="card-content">
               <h2 class="card-title uppercase">Cars</h2>
               <p class="card-body">
@@ -57,7 +70,12 @@
               <a href="cars.html" class="btn uppercase">see more</a>
             </div>
           </div>
-          <div class="card card-3">
+          <div
+            class="card card-3"
+            data-aos="zoom-in"
+            data-aos-delay="2100"
+            data-aos-duration="600"
+          >
             <div class="card-content">
               <h2 class="card-title uppercase">advertising</h2>
               <p class="card-body">
@@ -67,7 +85,12 @@
               <a href="advertising.html" class="btn uppercase">see more</a>
             </div>
           </div>
-          <div class="card card-4">
+          <div
+            class="card card-4"
+            data-aos="zoom-in"
+            data-aos-delay="2300"
+            data-aos-duration="600"
+          >
             <div class="card-content">
               <h2 class="card-title uppercase">Notebooks and awards.</h2>
               <p class="card-body">
@@ -77,7 +100,12 @@
               <a href="notebooks.html" class="btn uppercase">see more</a>
             </div>
           </div>
-          <div class="card card-5">
+          <div
+            class="card card-5"
+            data-aos="zoom-in"
+            data-aos-delay="2500"
+            data-aos-duration="600"
+          >
             <div class="card-content">
               <h2 class="card-title uppercase">Flyers and roll up</h2>
               <p class="card-body">
@@ -126,6 +154,11 @@
         opacity: 0,
         ease: Power1.easeIn,
       });
+    </script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
