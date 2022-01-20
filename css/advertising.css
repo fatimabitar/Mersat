@@ -33,17 +33,24 @@ body {
   width: 300px;
   height: 250px;
 }
+.wrap{
+  flex-direction: row;
+}
+
 .third-div {
   height: 90vh;
   margin-top: 150px;
 }
-
 .img-1 {
   top: -40%;
   right: -12.5%;
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
   z-index: 1;
+  display: n;
+}
+.img-2{
+  z-index: 3 !important;
 }
 .text-content {
   left: 40%;
