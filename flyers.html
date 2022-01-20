@@ -19,6 +19,9 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link rel="stylesheet" href="css/framework.css" />
@@ -48,16 +51,36 @@
           </p>
         </div>
         <div class="grid">
-          <div class="grid-item item-1">
+          <div
+            class="grid-item item-1"
+            data-aos="zoom-out-up"
+            data-aos-delay="1700"
+            data-aos-duration="600"
+          >
             <img src="img/flyer/1.jpg" alt="" />
           </div>
-          <div class="grid-item item-2">
+          <div
+            class="grid-item item-2"
+            data-aos="zoom-out-up"
+            data-aos-delay="1900"
+            data-aos-duration="600"
+          >
             <img src="img/flyer/2.jpeg" alt="" />
           </div>
-          <div class="grid-item item-3">
+          <div
+            class="grid-item item-3"
+            data-aos="zoom-out-up"
+            data-aos-delay="2200"
+            data-aos-duration="600"
+          >
             <img src="img/flyer/3.jpg" alt="" />
           </div>
-          <div class="grid-item item-4">
+          <div
+            class="grid-item item-4"
+            data-aos="zoom-out-up"
+            data-aos-delay="2400"
+            data-aos-duration="600"
+          >
             <img src="img/flyer/4.jpg" alt="" />
           </div>
         </div>
@@ -153,22 +176,22 @@
           ease: Power1.ease,
           delay: 1.4,
         });
-        gsap.from(".item-1 , .item-4", 1.3, {
-          scrollTrigger: ".product-sec",
-          x: -1500,
-          opcity: 0,
-          stagger: 0.1,
-          ease: Power1.easeinOut,
-          delay: 1.5,
-        });
-        gsap.from(".item-2 , .item-3", 1.3, {
-          scrollTrigger: ".product-sec",
-          x: 1500,
-          opcity: 0,
-          stagger: 0.1,
-          ease: Power1.easeinOut,
-          delay: 1.5,
-        });
+        // gsap.from(".item-1 , .item-4", 1.3, {
+        //   scrollTrigger: ".product-sec",
+        //   x: -1500,
+        //   opcity: 0,
+        //   stagger: 0.1,
+        //   ease: Power1.easeinOut,
+        //   delay: 1.5,
+        // });
+        // gsap.from(".item-2 , .item-3", 1.3, {
+        //   scrollTrigger: ".product-sec",
+        //   x: 1500,
+        //   opcity: 0,
+        //   stagger: 0.1,
+        //   ease: Power1.easeinOut,
+        //   delay: 1.5,
+        // });
         gsap.from(".second-div .left", 0.8, {
           scrollTrigger: ".second-div",
           x: -800,
@@ -212,6 +235,11 @@
           ease: Power1.ease,
           delay: 0.8,
         });
+      </script>
+      <!-- AOS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
       </script>
     </div>
   </body>
