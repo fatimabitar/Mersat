@@ -201,7 +201,7 @@ down.addEventListener("click", () => {
 });
 
 /* Slider */
-var colors = ["#eee", "#3358a7"];
+var colors = [ "#3358a7"];
 
 //initially colorize each box and position in a row
 gsap.set(".logoSlide", {
@@ -216,23 +216,17 @@ let boxesLength = boxWidth * boxLength;
 
 let animation = gsap.to(".logoSlide", {
   paused: true,
-  // duration: .9, // this must be 1 or the scroll sync goes off
-  // duration: 5,
-  // ease: "sine.inOut",
   ease: "none",
-  // x: "+=260", //move each box to the right
   x: "+=" + boxesLength,
   modifiers: {
     x: gsap.utils.unitize((x) => parseFloat(x) % boxesLength),
   },
   repeat: -1,
-  // repeatRefresh: true,
-  // repeatDelay: 1
 });
 
 gsap.to(animation, {
-  ease: "Power1.easinOut",
-  progress: "+=" + 1 / boxLength,
+  ease: Power1.easinOut,
+  progress: "+=" + 0.2 / boxLength,
   repeat: -1,
   repeatRefresh: true,
   repeatDelay: 0.5,

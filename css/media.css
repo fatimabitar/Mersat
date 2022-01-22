@@ -358,6 +358,10 @@
   .title{
     font-size:90px;
   }
+  /* Services */
+  .slick-slide p{
+    height: 100px;
+  }
 }
 @media (max-width: 600px) {
   /* Intro Section */

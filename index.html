@@ -19,6 +19,10 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <!-- <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      rel="stylesheet"
+    /> -->
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
@@ -194,7 +198,7 @@
       </div>
     </header>
     <!-- Start of our services -->
-    <!-- <section class="services">
+    <section class="services">
       <div class="services-title">
         <h2 class="capitalize">Our services</h2>
       </div>
@@ -213,25 +217,19 @@
         </div>
       </div>
       <div class="secondry-services">
-        <div class="logoModuleWrapper">
-          <div class="logoSlides">
-            <div class="logoSlide">
-              <p>Banners & Posters ( Outdoor - Indoor )</p>
-            </div>
-            <div class="logoSlide"><p>Light Box</p></div>
-            <div class="logoSlide"><p>Clear stickers</p></div>
-            <div class="logoSlide"><p>One way vision</p></div>
-            <div class="logoSlide"><p>Roll-Up</p></div>
-            <div class="logoSlide"><p>Pop-up</p></div>
-            <div class="logoSlide"><p>Display stands</p></div>
-            <div class="logoSlide">
-              <p>Off-set ( Brochure - Flyer - Business card - Catalog …)</p>
-            </div>
-          </div>
+          <div class="customer-logos slider">
+            <div class="slide"><p>Light Box</p></div>
+            <div class="slide"><p>Banners & Posters ( Outdoor - Indoor )</p></div>
+            <div class="slide"><p>Clear stickers</p></div>
+            <div class="slide"><p>One way vision</p></div>
+            <div class="slide"><p>Roll-Up</p></div>
+            <div class="slide"><p>Pop-up</p></div>
+            <div class="slide"><p>Display stands</p></div>
+            <div class="slide"><p> Brochure - Flyer - Business card - Catalog</p></div>
+         </div>
         </div>
       </div>
     </section>
-    End of our services  -->
     <!-- Get Started -->
     <section class="intro">
       <div class="container">
@@ -482,11 +480,42 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/CSSRulePlugin.min.js"></script>
     <script src="js/hover-effect.umd.js"></script>
     <script src="js/hoverEffect.js"></script>
+
+     <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> 
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/app.js"></script>
     <script>
       AOS.init();
     </script>
+     <script>
+      $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 2
+            }
+        }]
+    });
+});
+    </script> 
   </body>
 </html>
