@@ -20,6 +20,9 @@ body {
   line-height: 1.5;
   color: var(--white);
   overflow-x: hidden;
+  background: linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /********** Preloader ************/
 
@@ -208,9 +211,6 @@ header {
 /* Our services */
 /*********************************/
 .services {
-  background: linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;
   padding: 5rem 0;
   overflow: hidden;
@@ -249,7 +249,7 @@ header {
 .slick-slide {
   margin: 10rem 20px 0;
 }
-.slick-slide p{
+.slick-slide p {
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -474,6 +474,7 @@ header {
   color: #333;
   position: relative;
   overflow-x: hidden;
+  background-color: #fff;
 }
 .line {
   width: 5px;
@@ -635,7 +636,6 @@ header {
 }
 
 .footer-inner {
-  margin-top: 50px;
   display: flex;
   height: 100vh;
 }
