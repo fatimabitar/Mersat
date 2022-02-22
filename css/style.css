@@ -1,5 +1,5 @@
 :root {
-  --main: #253b8d;
+  --main: #041650;
   --yellow: #b8a10e;
   --white: #fff;
   --gray-light: #aaa;
@@ -149,7 +149,7 @@ header {
   cursor: pointer;
 }
 .img-holder canvas {
-  padding-left: 10px;
+  padding: 0 10px;
   width: 100%;
 }
 .links-container {

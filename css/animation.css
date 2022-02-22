@@ -32,14 +32,14 @@
     -moz-transform: translateY(-150px);
     -ms-transform: translateY(-150px);
     -o-transform: translateY(-150px);
-}
+  }
   50% {
     transform: translateY(-50px);
     -moz-transform: translateY(-50px);
     -ms-transform: translateY(-50px);
     -o-transform: translateY(-50px);
     -webkit-transform: translateY(-50px);
-}
+  }
 }
 
 @-webkit-keyframes shine {
@@ -58,7 +58,7 @@
     box-shadow: 0 0 0 0 #aaa;
   }
   70% {
-    box-shadow: 0 0 0 1rem #041650;
+    box-shadow: 0 0 0 1rem #253b8d;
   }
   100% {
     box-shadow: 0 0 0 0 #aaa;

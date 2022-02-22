@@ -9,7 +9,7 @@
 .portfolio {
   position: relative;
   background: url("../img/MassCircles.svg"),
-  linear-gradient(to top right, #041650, #031a4b, #4f67d4);
+    linear-gradient(to top right, #253b8d, #253b8d, #c0c8dc);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -85,7 +85,12 @@
 }
 .card-content {
   padding: 1.5em;
-  background: linear-gradient(    to top,    rgba(0, 0, 0, 1),    rgba(0, 0, 0, 0.5),    transparent  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.5),
+    transparent
+  );
   text-align: left;
   transition: all 0.5s linear;
   -webkit-transition: all 0.5s linear;
