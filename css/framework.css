@@ -16,7 +16,7 @@ a {
   color: #fff;
 }
 .linear {
-  background: linear-gradient(to top right, #253b8d, #253b8d, #c0c8dc);
+  background: #253b8d;
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -1,5 +1,5 @@
 :root {
-  --main: #0032a1;
+  --main: #253b8d;
   --yellow: #b8a10e;
   --white: #fff;
   --gray-light: #aaa;
@@ -8,8 +8,7 @@
 }
 .portfolio {
   position: relative;
-  background: url("../img/MassCircles.svg"),
-    linear-gradient(to top right, #253b8d, #253b8d, #c0c8dc);
+  background: url("../img/MassCircles.svg"), #253b8d;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;

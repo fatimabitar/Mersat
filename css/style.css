@@ -1,5 +1,5 @@
 :root {
-  --main: #041650;
+  --main: #253b8d;
   --yellow: #b8a10e;
   --white: #fff;
   --gray-light: #aaa;
@@ -20,7 +20,7 @@ body {
   line-height: 1.5;
   color: var(--white);
   overflow-x: hidden;
-  background: linear-gradient(to top right, #253b8d, #253b8d, #c0c8dc);
+  background: #253b8d;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@ body {
   height: 100%;
   left: 0%;
   z-index: 200;
-  background: #5e6faa;
+  background: #3a4f99;
 }
 .first {
   left: 0;
@@ -476,7 +476,7 @@ header {
 .title-prev {
   width: 175px;
   height: 50px;
-  background: linear-gradient(to top right, #253b8d, #4964c9, #c0c8dc);
+  background: var(--main);
 }
 .a-title {
   font-size: 4rem;
@@ -555,7 +555,7 @@ header {
 .title-next {
   width: 500px;
   height: 50px;
-  background: linear-gradient(to top right, #253b8d, #4964c9, #c0c8dc);
+  background: var(--main);
 }
 .goal-title {
   font-size: 4rem;
