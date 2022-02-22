@@ -18,42 +18,42 @@ gsap.to(".third", 1, {
 });
 
 gsap.from(".logo", 1, {
-  x: "-550",
+  y: "-550",
   ease: Expo.easeInOut,
-  delay: 2.8,
+  delay: 2.9,
 });
 gsap.from(".title", 1, {
   y: "-550",
   ease: Expo.easeInOut,
-  delay: 2.8,
+  delay: 3,
 });
 gsap.from(".caption", 1, {
   y: "-600",
   ease: Expo.easeInOut,
-  delay: 2.9,
+  delay: 3,
 });
 gsap.from(".hero .text", 1, {
   y: "-550",
   ease: Expo.easeInOut,
-  delay: 3,
+  delay: 3.1,
 });
 gsap.from(".subtitle", 1, {
   x: "-750",
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 3.3,
+  delay: 3.4,
 });
 gsap.from(".links", 1, {
   x: "-500",
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 3.6,
+  delay: 3.7,
 });
 gsap.from(".anchor-container", 1.2, {
   y: "-1150",
   opcity: 0,
   ease: Expo.easeInOut,
-  delay: 3.6,
+  delay: 3.7,
 });
 
 //Intro Animation

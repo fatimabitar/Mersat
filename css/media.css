@@ -8,6 +8,9 @@
   .img-holder {
     width: 70%;
   }
+  .img-holder canvas {
+    padding-left: 50px;
+  }
   .title {
     font-size: 8rem;
   }
@@ -75,12 +78,12 @@
   .col-3 {
     animation: upDownS 10s linear infinite alternate;
     -webkit-animation: upDownS 10s linear infinite alternate;
-}
+  }
   .col-2,
   .col-4 {
     animation: upDownS 10s linear infinite backwards alternate-reverse;
     -webkit-animation: upDownS 10s linear infinite backwards alternate-reverse;
-}
+  }
   .col-3 {
     left: 53%;
   }
@@ -174,12 +177,12 @@
   .col-3 {
     animation: upDownS 10s linear infinite alternate;
     -webkit-animation: upDownS 10s linear infinite alternate;
-}
+  }
   .col-2,
   .col-4 {
     animation: upDownS 10s linear infinite reverse;
     -webkit-animation: upDownS 10s linear infinite reverse;
-}
+  }
   .column-box {
     margin: 5rem auto;
   }
@@ -246,7 +249,7 @@
   .anchor-container {
     display: none;
   }
-  
+
   .hero {
     flex-direction: column-reverse;
     align-items: center;
@@ -265,7 +268,7 @@
     margin: 0 auto;
     width: 90%;
   }
-  .content ,
+  .content,
   .subtitle {
     font-size: 8rem;
   }
@@ -297,11 +300,11 @@
   .col-1 {
     animation: upDownS 10s linear infinite alternate;
     -webkit-animation: upDownS 10s linear infinite alternate;
-}
+  }
   .col-3 {
     animation: upDownS 10s linear infinite backwards alternate-reverse;
     -webkit-animation: upDownS 10s linear infinite backwards alternate-reverse;
-}
+  }
   .col-1,
   .col-3 {
     width: 275px;
@@ -355,11 +358,11 @@
   .goal-title {
     font-size: 3.5rem;
   }
-  .title{
-    font-size:90px;
+  .title {
+    font-size: 90px;
   }
   /* Services */
-  .slick-slide p{
+  .slick-slide p {
     height: 100px;
   }
 }
@@ -415,10 +418,10 @@
     font-size: 2rem;
   }
   /* Our services */
-  .services{
+  .services {
     height: 70vh;
   }
-  .services-title h2{
+  .services-title h2 {
     font-size: 3rem;
   }
   .services-flex h3 {
@@ -427,10 +430,10 @@
     margin: 7rem 0;
     padding: 0 2rem 0 0;
   }
-  .logoSlide{
+  .logoSlide {
     font-size: 15px;
   }
-  .arrow{
+  .arrow {
     left: 30%;
   }
 }
@@ -439,8 +442,8 @@
   html {
     font-size: 5px;
   }
-  .title{
-    font-size:80px;
+  .title {
+    font-size: 80px;
   }
   .intro {
     height: 50vh;
@@ -489,14 +492,14 @@
     height: 35px;
   }
 
-    /* Our services */
-    .services-title h2{
-      font-size: 2.5rem;
-    }
-    .logoSlide{
-      font-size: 15px;
-    }
-    .arrow{
-      left: 30%;
-    }
+  /* Our services */
+  .services-title h2 {
+    font-size: 2.5rem;
+  }
+  .logoSlide {
+    font-size: 15px;
+  }
+  .arrow {
+    left: 30%;
+  }
 }

@@ -138,7 +138,7 @@ header {
   text-transform: capitalize;
 }
 .anchor-container {
-  width: 50%;
+  width: 55%;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -147,6 +147,10 @@ header {
   width: 80%;
   height: 55rem;
   cursor: pointer;
+}
+.img-holder canvas {
+  padding-left: 10px;
+  width: 100%;
 }
 .links-container {
   position: absolute;
