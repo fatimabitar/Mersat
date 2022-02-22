@@ -1,5 +1,5 @@
 :root {
-  --main: #0032a1;
+  --main: #041650;
   --yellow: #b8a10e;
   --white: #fff;
   --gray-light: #aaa;
@@ -20,7 +20,7 @@ body {
   line-height: 1.5;
   color: var(--white);
   overflow-x: hidden;
-  background: linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
+  background: linear-gradient(to top right, #041650, #031a4b, #4f67d4);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@ body {
   height: 100%;
   left: 0%;
   z-index: 200;
-  background: #5b77bf;
+  background: #031a4b;
 }
 .first {
   left: 0;
@@ -79,19 +79,20 @@ body {
 header {
   height: 100vh;
   font-size: 1.6rem;
-  /* border-bottom: 3px solid var(--main); */
 }
 
 .logo-container {
   width: 100%;
-  padding: 10px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
 }
 .logo {
   width: 30%;
   text-align: center;
 }
 .logo img {
-  width: 40%;
+  width: 25%;
 }
 .hero {
   display: flex;
@@ -163,50 +164,6 @@ header {
   font-weight: 800;
 }
 
-.down-btn span {
-  cursor: pointer;
-  display: block;
-  width: 10px;
-  height: 10px;
-  background: #fff;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  position: relative;
-}
-
-.down-btn {
-  position: absolute;
-  left: 50%;
-  bottom: 3%;
-  z-index: 6;
-}
-
-.down-btn span::before {
-  content: "";
-  position: absolute;
-  left: -13px;
-  top: -13px;
-  border: 3px solid #fff;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-.down-btn span::after {
-  content: "";
-  position: absolute;
-  left: 4px;
-  top: 22px;
-  height: 35px;
-  width: 3px;
-  background-color: #fff;
-}
 
 /* Our services */
 /*********************************/
@@ -429,21 +386,10 @@ header {
   -ms-border-radius: var(--raduis);
   -o-border-radius: var(--raduis);
   margin-bottom: 2rem;
-  box-shadow: 25px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
-.intro-img:first-child {
-  border: 3px solid var(--main);
-}
-.intro-img:nth-child(2) {
-  border: 3px solid var(--yellow);
-}
-.intro-img:nth-child(3) {
-  border: 3px solid var(--main);
-}
-.intro-img:last-child {
-  border: 3px solid var(--yellow);
-}
+
 .col-1 {
   top: 0;
   animation: upDown 30s linear infinite alternate;

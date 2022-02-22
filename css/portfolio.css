@@ -9,7 +9,7 @@
 .portfolio {
   position: relative;
   background: url("../img/MassCircles.svg"),
-    linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
+  linear-gradient(to top right, #041650, #031a4b, #4f67d4);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -183,7 +183,7 @@
   -o-transition: all 0.5s ease;
 }
 .card-content .btn:hover {
-  background-color: var(--yellow);
+  background-color: #4f67d4;
 }
 
 /*  MediaQuery  */

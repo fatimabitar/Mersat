@@ -16,7 +16,7 @@ a {
   color: #fff;
 }
 .linear {
-  background: linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
+  background: linear-gradient(to top right, #041650, #031a4b, #4f67d4);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
   position: absolute;
   top: 0;
   left: -110%;
-  background: linear-gradient(to top right, #0032a1, #3358a7, #9eabe7);
+  background: linear-gradient(to top right, #041650, #031a4b, #4f67d4);
   z-index: 5;
 }
 .wave {
@@ -47,7 +47,7 @@ body::-webkit-scrollbar {
   position: fixed;
   bottom: 3%;
   right: 3%;
-  color: #3358a7;
+  color: #041650;
   display: inline-block;
   width: 40px;
   height: 40px;

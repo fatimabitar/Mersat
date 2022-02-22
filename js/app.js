@@ -55,12 +55,6 @@ gsap.from(".anchor-container", 1.2, {
   ease: Expo.easeInOut,
   delay: 3.6,
 });
-gsap.from(".down-btn", 1.2, {
-  scale: 0,
-  opcity: 0,
-  ease: Expo.easeInOut,
-  delay: 4,
-});
 
 //Intro Animation
 gsap.from(".intro-content", 1, {
@@ -78,89 +72,7 @@ gsap.from(".line-1 , .line-2", 0.8, {
   ease: Power1.easeInOut,
   delay: 0.1,
 });
-// gsap.from(".about-title", 0.8, {
-//   scrollTrigger: ".title-container",
-//   x: -500,
-//   ease: Power1.easeInOut,
-//   delay: 0.3,
-// });
-// gsap.from(".title-container .text", 0.8, {
-//   scrollTrigger: ".title-container",
-//   x: -500,
-//   ease: Power1.easeInOut,
-//   delay: 0.5,
-// });
-/* WE ARE */
-// gsap.from(".we-are .title-prev", 0.8, {
-//   scrollTrigger: ".title-container",
-//   x: -500,
-//   ease: Power1.easeInOut,
-//   delay: 0.6,
-// });
-// gsap.from(".we-are .a-title", 0.8, {
-//   scrollTrigger: ".title-container",
-//   x: -500,
-//   ease: Power1.easeInOut,
-//   delay: 0.7,
-// });
-// gsap.from(".we-inner .text", 0.8, {
-//   scrollTrigger: ".title-container",
-//   x: -600,
-//   ease: Power1.easeInOut,
-//   delay: 0.8,
-// });
-// gsap.from(".we-are .we-img", 0.8, {
-//   scrollTrigger: ".title-container",
-//   x: 500,
-//   ease: Power1.easeInOut,
-//   delay: 0.9,
-// });
 
-/* Our vision */
-// gsap.from(".our-vision .title-prev", 0.8, {
-//   scrollTrigger: ".our-inner",
-//   x: -500,
-//   ease: Power1.easeInOut,
-//   delay: 0.3,
-// });
-// gsap.from(".our-vision .a-title", 0.8, {
-//   scrollTrigger: ".our-inner",
-//   x: -500,
-//   ease: Power1.easeInOut,
-//   delay: 0.4,
-// });
-// gsap.from(".our-vision .text", 0.8, {
-//   scrollTrigger: ".our-inner",
-//   x: -600,
-//   ease: Power1.easeInOut,
-//   delay: 0.5,
-// });
-// gsap.from(".our-vision .our-img", 0.8, {
-//   scrollTrigger: ".our-inner",
-//   x: 500,
-//   ease: Power1.easeInOut,
-//   delay: 0.6,
-// });
-/* Our Goals animation */
-// gsap.from(".our-goals .title-prev", 0.8, {
-//   scrollTrigger: ".goal-inner",
-//   x: -500,
-//   ease: Power1.easeInOut,
-//   delay: 0.3,
-// });
-// gsap.from(".our-goals .title-next", 0.8, {
-//   scrollTrigger: ".goal-inner",
-//   x: 500,
-//   ease: Power1.easeInOut,
-//   delay: 0.3,
-// });
-// gsap.from(".goal-title", 0.8, {
-//   scrollTrigger: ".goal-inner",
-//   y: -100,
-//   opacity: 0,
-//   ease: Power1.easeIn,
-//   delay: 0.3,
-// });
 gsap.from(".goal-inner .text", 0.5, {
   scrollTrigger: ".goal-inner .text",
   stagger: 0.3,
@@ -201,7 +113,7 @@ down.addEventListener("click", () => {
 });
 
 /* Slider */
-var colors = [ "#3358a7"];
+var colors = ["#3358a7"];
 
 //initially colorize each box and position in a row
 gsap.set(".logoSlide", {
